@@ -8,7 +8,7 @@ export default class ReflectionPage extends React.Component {
     return (
       <Layout>
         <SEO title="Reflection"/>
-        <section className="page-section bg-primary">
+        <section className="page-section bg-primary pb-5">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
@@ -30,8 +30,7 @@ export default class ReflectionPage extends React.Component {
           </div>
         </section>
         <section className="page-section bg-dark text-white">
-          <div className="container text-center">
-            <h2 className="mb-4">Another section</h2>
+          <div className="container text-center">          
           </div>
         </section>
       </Layout>
