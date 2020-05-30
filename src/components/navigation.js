@@ -1,5 +1,4 @@
 import React from 'react'
-// import Scrollspy from "react-scrollspy"
 import { Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'gatsby'
 import Scroller from './scroller'
@@ -21,22 +20,24 @@ export default class Navigation extends React.Component {
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
               <Nav className="navbar-nav ml-auto my-2 my-lg-0">
-                {/* <Scrollspy className="navbar-nav"
-                           items={["about", "services", "portfolio", "contact"]}
-                           currentClassName="active" rootEl={"#mainNav"} offset={-75}> */}
-                  {/* <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#about" onClick={Scroller.handleAnchorScroll}>About</Nav.Link>
-                  </li> */}
                   <li className="nav-item">            
-                    <Nav.Link href="/artifacts"><Link to="/artifacts">Artifacts</Link></Nav.Link>
+                    <Nav.Link><Link to="/">Home</Link></Nav.Link>
                   </li>
-                  {/* <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#portfolio" onClick={Scroller.handleAnchorScroll}>Portfolio</Nav.Link>
+                  <li className="nav-item">            
+                    <Nav.Link><Link to="/philosophy">Philosophy</Link></Nav.Link>
                   </li>
-                  <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>
-                  </li> */}
-                {/* </Scrollspy> */}
+                  <li className="nav-item">            
+                    <Nav.Link><Link to="/projects">Projects</Link></Nav.Link>
+                  </li>
+                  <li className="nav-item">            
+                    <Nav.Link><Link to="/reflection">Reflection</Link></Nav.Link>
+                  </li>   
+                  <li className="nav-item">            
+                    <Nav.Link><Link to="/resume">Resume</Link></Nav.Link>
+                  </li>  
+                  <li className="nav-item">            
+                    <Nav.Link><Link to="/resources">Resources</Link></Nav.Link>
+                  </li>                                                  
               </Nav>
             </Navbar.Collapse>
           </div>

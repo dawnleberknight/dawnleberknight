@@ -11,12 +11,14 @@ import Navigation from './navigation'
 import './layout.scss'
 
 const getScrollNode = (element) => {
-  return element.ownerDocument.scrollingElement || element.ownerDocument.documentElement
+  if (element.ownerDocument) {
+    return element.ownerDocument.scrollingElement || element.ownerDocument.documentElement
+  }
 }
 
 const isScrolled = (element) => {
   const scrollNode = getScrollNode(element)
-  return scrollNode.scrollTop > 0
+  return scrollNode ? scrollNode.scrollTop > 0 : false
 }
 
 export default class Layout extends React.Component {

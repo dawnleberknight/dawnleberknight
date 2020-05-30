@@ -41,13 +41,13 @@
 		// }
 		.navbar-nav {
 			.nav-item {
-				// .nav-link {
-				// 	color: fade-out($white, .3);
-				// 	padding: 0 1rem;
-				// 	&:hover {
-				// 		color: $white;
-				// 	}
-				// }
+				.nav-link {
+					color: fade-out($white, .3);
+					padding: 0 1rem;
+					&:hover {
+						color: $white;
+					}
+				}
 				&:last-child {
 					.nav-link {
 						padding-right: 0;
