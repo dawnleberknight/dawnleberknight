@@ -52,7 +52,7 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="services">
           <div className="container">
-            <h2 className="text-center mt-0">Some other section</h2>
+            <h2 className="text-center mt-0">Statement of Professional Goals</h2>
             <hr className="divider my-4"/>
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
@@ -184,13 +184,20 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Feel free to email me.</p>
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-12 mr-auto text-center">
+              <div className="col-lg-4 mr-auto text-center mb-5">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:dawnleberknight@gmail.com">dawnleberknight@gmail.com</a>
+                <a className="d-block" href="mailto:dawnleberknight@gmail.com" target="_blank" rel="noopener noreferrer">dawnleberknight@gmail.com</a>
+              </div>
+              <div className="col-lg-4 mr-auto text-center mb-5">
+                <i className="fab fa-linkedin fa-3x mb-3 text-muted"></i>
+                <a className="d-block" href="https://www.linkedin.com/in/dawn-leberknight/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+              </div>
+              <div className="col-lg-4 mr-auto text-center">
+                <i className="fab fa-twitter fa-3x mb-3 text-muted"></i>
+                <a className="d-block" href="https://twitter.com/dawnlknight" target="_blank" rel="noopener noreferrer">@dawnlknight</a>
               </div>
             </div>
           </div>
