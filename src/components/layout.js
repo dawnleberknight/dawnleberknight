@@ -66,7 +66,7 @@ export default class Layout extends React.Component {
         <main>{this.props.children}</main>
         <footer className="bg-light py-5">
           <div className="container">
-            <div className="small text-center text-muted">Dawn Leberknight &copy; {currentYear}</div>
+            <div className="small text-center secondary-color">Dawn Leberknight &copy; {currentYear}</div>
           </div>
         </footer>
       </div>

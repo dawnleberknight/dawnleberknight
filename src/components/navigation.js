@@ -16,7 +16,7 @@ export default class Navigation extends React.Component {
         <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
                 collapseOnSelect={true}>
           <div className="container">
-            <Link className="navbar-brand js-scroll-trigger" to="/">Dawn Leberknight</Link>            
+            <Link className="navbar-brand" to="/">Dawn Leberknight</Link>            
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
               <Nav className="navbar-nav ml-auto my-2 my-lg-0">

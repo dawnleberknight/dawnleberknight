@@ -4,9 +4,10 @@
 	background-color: $white;
 	// transition: background-color 0.2s ease;
 	.navbar-brand {
-		font-family: $font-family-sans-serif;
+		font-family: $font-family-serif;
 		font-weight: $font-weight-bold;
-		color: $gray-900;
+		font-size: 1.4rem;
+		color: $secondary;
 	}
 	.navbar-nav {
 		.nav-item {

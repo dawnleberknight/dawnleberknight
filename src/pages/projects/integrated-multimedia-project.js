@@ -59,27 +59,27 @@ export default class IntegratedMultimediaProject extends React.Component {
                   and marketing materials and implemented them into a publicly available website. Finally, we evaluated the 
                   project based on feedback from peer reviewers in the class.
                 </p>
-                <h4 className="mt-5">Performance indicator</h4>    
+                <h4 className="mt-5">Performance Indicator</h4>    
                 <p>
-                  <strong>Creating</strong> - Candidates demonstrate the ability to create instructional materials and learning
-                  environments using a variety of systems approaches. We created instructional materials (podcast, vodcast, 
-                  marketing poster and cover art) and created a website to make the materials publicly accessible online.
+                  <u>Creating</u> - Candidates demonstrate the ability to create instructional materials and learning
+                  environments using a variety of systems approaches. <strong>We created instructional materials (podcast, vodcast, 
+                  marketing poster and cover art) and created a website to make the materials publicly accessible online.</strong>
                 </p>  
                 <p>
-                  <strong>Using</strong> - Candidates demonstrate the ability to select and use technological resources and processes to support 
-                  student learning and to enhance their pedagogy. We selected and used Google Sites (website), Canva (cover art,
-                  marketing poster), Citrix WebEx (recording tool), and iMovie (vodcast/podcast production).
+                  <u>Using</u> - Candidates demonstrate the ability to select and use technological resources and processes to support 
+                  student learning and to enhance their pedagogy. <strong>We selected and used Google Sites (website), Canva (cover art,
+                  marketing poster), Citrix WebEx (recording tool), and iMovie (vodcast/podcast production).</strong>
                 </p>
                 <p>
-                  <strong>Managing</strong> - Candidates demonstrate the ability to effectively manage people, processes, physical infrastructures, 
-                  and financial resources to achieve predetermined goals. At the beginning of the project, roles and tasks for each
+                  <u>Managing</u> - Candidates demonstrate the ability to effectively manage people, processes, physical infrastructures, 
+                  and financial resources to achieve predetermined goals. <strong>At the beginning of the project, roles and tasks for each
                   team member were clearly communicated and deadlines were established based on the course schedule. Frequent communication
-                  and virtual meetings were used throughout the project to effectively manage process.
+                  and virtual meetings were used throughout the project to effectively manage process.</strong>
                 </p>
                 <p>
-                  <strong>Ethics</strong> - Candidates demonstrate the contemporary professional ethics of the field as defined 
-                  and developed by the Association for Educational Communications and Technology. Resources and references were 
-                  appropriately cited.
+                  <u>Ethics</u> - Candidates demonstrate the contemporary professional ethics of the field as defined 
+                  and developed by the Association for Educational Communications and Technology. <strong>Resources and references were 
+                  appropriately cited.</strong>
                 </p>
                 <h4 className="mt-5">Reflection</h4>
                 <p>
