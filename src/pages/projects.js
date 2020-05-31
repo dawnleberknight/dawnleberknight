@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -37,7 +37,7 @@ export default class ProjectsPage extends React.Component {
                   <tbody>
                     <tr>
                       <th scope="row">EDET 603</th>
-                      <td>Artifact Name and Link</td>
+                      <td><Link to="/projects/integrated-multimedia-project">Integrated Multimedia Project</Link></td>
                       <td></td>
                       <td></td>
                       <td></td>
