@@ -79,7 +79,11 @@ export default class ProjectsPage extends React.Component {
                           WWW 722 ID Project
                         </Link>
                       </td>
-                      <td></td>
+                      <td>
+                        <Link to="/projects/rapid-eLearning-tool">
+                          Rapid eLearning Tool
+                        </Link>
+                      </td>
                       <td></td>
                       <td></td>
                     </tr>

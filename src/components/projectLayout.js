@@ -67,6 +67,25 @@ export default class ProjectLayout extends React.Component {
                 ))}
                 <h4 className="mt-5">Reflection</h4>
                 <p>{data.reflection}</p>
+
+                {data.resources && (
+                  <>
+                    <h5 className="mt-5">Resources*</h5>
+                    <ul>
+                      {data.resources.map((resource, index) => (
+                        <li key={index}>
+                          <a
+                            href={resource.linkTo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {resource.title}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
               </div>
               <div className="col-lg-8 text-center mt-5">
                 <Link to="/projects">

@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectLayout from '../../components/projectLayout'
-import data from '../../content/projects/www722IdProject'
+import data from '../../content/projects/rapidELearningTool'
 
-export default function WWW722IdProject() {
+export default function RapidELearningTool() {
   return <ProjectLayout data={data} />
 }

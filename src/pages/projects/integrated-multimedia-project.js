@@ -1,9 +1,7 @@
 import React from 'react'
 import ProjectLayout from '../../components/projectLayout'
-import data from '../../data/projects/integratedMultimediaProject'
+import data from '../../content/projects/integratedMultimediaProject'
 
-export default class IntegratedMultimediaProject extends React.Component {
-  render() {
-    return <ProjectLayout data={data} />
-  }
+export default function IntegratedMultimediaProject() {
+  return <ProjectLayout data={data} />
 }
