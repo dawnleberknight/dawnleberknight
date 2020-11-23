@@ -73,8 +73,12 @@ export default class ProjectsPage extends React.Component {
                     </tr>
                     <tr>
                       <th scope="row">EDET 703</th>
-                      <td>Artifact Name and Link</td>
                       <td></td>
+                      <td>
+                        <Link to="/projects/www-722-id-project">
+                          WWW 722 ID Project
+                        </Link>
+                      </td>
                       <td></td>
                       <td></td>
                       <td></td>
