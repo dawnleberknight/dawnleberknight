@@ -125,11 +125,11 @@ export default class ProjectsPage extends React.Component {
                     </tr>
                     <tr>
                       <th scope="row">EDET 652</th>
-                      <td></td>
-                      <td></td>
                       <td>
                         <Link to="/projects/game-design">Game Design</Link>
                       </td>
+                      <td></td>
+                      <td></td>
                       <td></td>
                       <td></td>
                     </tr>
@@ -147,20 +147,25 @@ export default class ProjectsPage extends React.Component {
                     </tr>
                     <tr>
                       <th scope="row">EDET 650</th>
-                      <td>Artifact Name and Link</td>
                       <td></td>
                       <td></td>
                       <td></td>
+                      <td>
+                        {' '}
+                        <Link to="/projects/internship-final-report-presentation">
+                          Internship Final Report Presentation
+                        </Link>
+                      </td>
                       <td></td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <th scope="row">EDET 735</th>
-                      <td>Artifact Name and Link</td>
                       <td></td>
                       <td></td>
                       <td></td>
                       <td></td>
-                    </tr>
+                      <td></td>
+                    </tr> */}
                   </tbody>
                 </table>
               </div>

@@ -60,10 +60,17 @@ export default class ProjectLayout extends React.Component {
                 <p>{data.instructionalDesign}</p>
                 <h4 className="mt-5">Performance Indicator</h4>
                 {data.performanceIndicator.map((pi, index) => (
-                  <p key={index}>
-                    <u>{pi.title}</u> - {pi.indicator}{' '}
-                    <strong>{pi.implementation}</strong>
-                  </p>
+                  <div key={index}>
+                    <h5 className="mt-4">
+                      <u>{pi.title}</u>
+                    </h5>
+                    <p className="mb-0">
+                      <i>{pi.indicator}</i>
+                    </p>
+                    <p>
+                      <strong>{pi.implementation}</strong>
+                    </p>
+                  </div>
                 ))}
                 <h4 className="mt-5">Reflection</h4>
                 <p>{data.reflection}</p>
