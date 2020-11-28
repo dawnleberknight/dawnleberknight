@@ -89,11 +89,15 @@ export default class ProjectsPage extends React.Component {
                     </tr>
                     <tr>
                       <th scope="row">EDET 709</th>
-                      <td>Artifact Name and Link</td>
                       <td></td>
                       <td></td>
                       <td></td>
                       <td></td>
+                      <td>
+                        <Link to="/projects/learning-theory-research-paper">
+                          Learning Theory Research Paper
+                        </Link>
+                      </td>
                     </tr>
                     <tr>
                       <th scope="row">EDET 780</th>

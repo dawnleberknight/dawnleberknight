@@ -59,7 +59,7 @@ export default {
   ],
   reflection:
     'Since I was already familiar with the TeamSTEPPS® curriculum and Articulate 360 Rise e-learning tool, this artifact demonstrates more advanced application of knowledge and skills. I have taught the concepts within the face-to-face learning environment, but this project allowed me to apply instructional design strategies to optimize the online learning environment.',
-  resources: [
+  references: [
     {
       title: 'TeamSTEPPS® for Office-Based Care',
       linkTo: 'https://www.ahrq.gov/teamstepps/officebasedcare/index.html',

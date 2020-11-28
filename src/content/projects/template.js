@@ -33,4 +33,11 @@ export default {
     },
   ],
   reflection: '',
+  // Only use if you need to cite
+  references: [
+    {
+      title: '',
+      linkTo: '',
+    },
+  ],
 }
