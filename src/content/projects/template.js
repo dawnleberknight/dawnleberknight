@@ -1,8 +1,10 @@
 // This is the JSON template for the data needed to create a project page
 export default {
   titleMain: '',
+  // titleSecondary: '',
   courseNumber: '',
   projectLink: '',
+  // projectLink2: '',
   standardName: '',
   standardSummary: '',
   contextAndConditions: '',
