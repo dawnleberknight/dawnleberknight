@@ -32,7 +32,7 @@ export default class Navigation extends React.Component {
                 </li>
                 <li className="nav-item">
                   <Nav.Item>
-                    <Link to="/philosophy">Philosophy</Link>
+                    <Link to="/goals">Goals</Link>
                   </Nav.Item>
                 </li>
                 <li className="nav-item">
@@ -43,11 +43,6 @@ export default class Navigation extends React.Component {
                 <li className="nav-item">
                   <Nav.Item>
                     <Link to="/reflection">Reflection</Link>
-                  </Nav.Item>
-                </li>
-                <li className="nav-item">
-                  <Nav.Item>
-                    <Link to="/resume">Resume</Link>
                   </Nav.Item>
                 </li>
                 <li className="nav-item">
