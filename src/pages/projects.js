@@ -124,12 +124,26 @@ export default class ProjectsPage extends React.Component {
                       <td></td>
                     </tr>
                     <tr>
+                      <th scope="row">EDET 652</th>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <Link to="/projects/game-design">Game Design</Link>
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
                       <th scope="row">EDET 746</th>
-                      <td>Artifact Name and Link</td>
                       <td></td>
                       <td></td>
                       <td></td>
                       <td></td>
+                      <td>
+                        <Link to="/projects/management-of-web-2dot0-tools">
+                          Management of Web 2.0 Tools
+                        </Link>
+                      </td>
                     </tr>
                     <tr>
                       <th scope="row">EDET 650</th>
