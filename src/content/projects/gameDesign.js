@@ -41,6 +41,13 @@ export default {
         'With consideration of the local public school system, I developed a technical description which details how the game could be distributed and deployed.',
     },
     {
+      title: 'Managing',
+      indicator:
+        'Candidates demonstrate the ability to effectively manage people, processes, physical infrastructures, and financial resources to achieve predetermined goals.',
+      implementation:
+        'While designing the online game and planning for implementation, I considered the existing educational technologies and limited financial resources of the local public school system.',
+    },
+    {
       title: 'Ethics',
       indicator:
         'Candidates demonstrate the contemporary professional ethics of the field as defined and developed by the Association for Educational Communications and Technology.',

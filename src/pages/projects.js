@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import ListItem from '../components/listItem'
 
 export default class ProjectsPage extends React.Component {
   render() {
@@ -21,28 +22,42 @@ export default class ProjectsPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-12 text-center">
-                <h2 className="mt-0">List of Projects</h2>
+                <h2 className="mt-0">Work Samples</h2>
                 <hr className="divider my-4" />
-                <table className="table table-hover table-responsive">
+                <div className="text-left">
+                  <p>
+                    All artifacts listed below are authentic products of my
+                    activities during the M.Ed. program and are indications of
+                    my skills and abilities, demonstrating mastery of{' '}
+                    <a
+                      href="https://www.aect.org/docs/AECTstandards2012.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      AECT 2012 Standards.
+                    </a>
+                  </p>
+                </div>
+                <table className="table table-hover table-responsive mb-5">
                   <thead>
                     <tr className="bg-primary text-white">
                       <th scope="col" style={{ width: '16.66%' }}>
                         Course
                       </th>
                       <th scope="col" style={{ width: '16.66%' }}>
-                        AECT Stardard 1
+                        AECT Standard 1
                       </th>
                       <th scope="col" style={{ width: '16.66%' }}>
-                        AECT Stardard 2
+                        AECT Standard 2
                       </th>
                       <th scope="col" style={{ width: '16.66%' }}>
-                        AECT Stardard 3
+                        AECT Standard 3
                       </th>
                       <th scope="col" style={{ width: '16.66%' }}>
-                        AECT Stardard 4
+                        AECT Standard 4
                       </th>
                       <th scope="col" style={{ width: '16.66%' }}>
-                        AECT Stardard 5
+                        AECT Standard 5
                       </th>
                     </tr>
                   </thead>
@@ -168,12 +183,30 @@ export default class ProjectsPage extends React.Component {
                     </tr> */}
                   </tbody>
                 </table>
+                <div className="text-left pt-5">
+                  <h3>References</h3>
+                  <ul className="list-unstyled">
+                    <ListItem>
+                      Association for Educational Communications and Technology
+                      (2012). AECT Standards. Bloomington, IN: Association for
+                      Educational Communications and Technology. Retrieved from
+                      https://www.aect.org/docs/AECTstandards2012.pdf
+                    </ListItem>
+                    <ListItem>
+                      Molenda, M. (2007). In search of the elusive ADDIE model.
+                      Performance Improvement, 42(5), 34-36.
+                      https://doi.org/10.1002/pfi.4930420508
+                    </ListItem>
+                    <ListItem>
+                      Morrison, G. R., Ross, S. M., Kalman, H. K., & Kemp, J. E.
+                      (2013). Designing effective instruction (7th ed.).
+                      Hoboken, NJ: John Wiley & Sons, Inc.
+                    </ListItem>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-        <section className="page-section bg-dark text-white">
-          <div className="container text-center"></div>
         </section>
       </Layout>
     )

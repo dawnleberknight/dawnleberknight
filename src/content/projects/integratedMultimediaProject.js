@@ -29,6 +29,13 @@ export default {
         'We selected and used Google Sites (website), Canva (cover art, marketing poster), Citrix WebEx (recording tool), and iMovie (vodcast/podcast production).',
     },
     {
+      title: 'Assessing/Evaluating',
+      indicator:
+        'Candidates demonstrate the ability to assess and evaluate the effective integration of appropriate technologies and instructional materials.',
+      implementation:
+        'We reviewed available technology resources in order to determine those most effective for developing the instructional materials.',
+    },
+    {
       title: 'Managing',
       indicator:
         'Candidates demonstrate the ability to effectively manage people, processes, physical infrastructures, and financial resources to achieve predetermined goals.',

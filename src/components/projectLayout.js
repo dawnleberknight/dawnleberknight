@@ -58,7 +58,7 @@ export default class ProjectLayout extends React.Component {
                 <p>{data.role}</p>
                 <h4 className="mt-5">Instructional Design</h4>
                 <p>{data.instructionalDesign}</p>
-                <h4 className="mt-5">Performance Indicator</h4>
+                <h4 className="mt-5">AECT Performance Indicators</h4>
                 {data.performanceIndicator.map((pi, index) => (
                   <div key={index}>
                     <h5 className="mt-4">

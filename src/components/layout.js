@@ -10,13 +10,16 @@ import PropTypes from 'prop-types'
 import Navigation from './navigation'
 import './layout.scss'
 
-const getScrollNode = (element) => {
+const getScrollNode = element => {
   if (element.ownerDocument) {
-    return element.ownerDocument.scrollingElement || element.ownerDocument.documentElement
+    return (
+      element.ownerDocument.scrollingElement ||
+      element.ownerDocument.documentElement
+    )
   }
 }
 
-const isScrolled = (element) => {
+const isScrolled = element => {
   const scrollNode = getScrollNode(element)
   return scrollNode ? scrollNode.scrollTop > 0 : false
 }
@@ -33,7 +36,7 @@ export default class Layout extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll)
+    window.addEventListener('scroll', this.handleScroll)
     const element = this.siteContainer.current
     this.setState({
       scrolled: isScrolled(element),
@@ -41,7 +44,7 @@ export default class Layout extends React.Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll)
+    window.removeEventListener('scroll', this.handleScroll)
   }
 
   handleScroll() {
@@ -52,21 +55,20 @@ export default class Layout extends React.Component {
   }
 
   render() {
-    let className = "site-container"
+    let className = 'site-container'
     if (this.props.className) className += ` ${this.props.className}`
-    if (this.state.scrolled) className += " navbar-scrolled"
+    if (this.state.scrolled) className += ' navbar-scrolled'
     const currentYear = new Date().getFullYear()
 
     return (
-      <div
-        className={className}
-        ref={this.siteContainer}
-        id="page-top">
-        <Navigation page={this.props.page}/>
+      <div className={className} ref={this.siteContainer} id="page-top">
+        <Navigation page={this.props.page} />
         <main>{this.props.children}</main>
-        <footer className="bg-light py-5">
+        <footer className="bg-dark text-white py-5">
           <div className="container">
-            <div className="small text-center secondary-color">Dawn Leberknight &copy; {currentYear}</div>
+            <div className="small text-center">
+              Dawn Leberknight &copy; {currentYear}
+            </div>
           </div>
         </footer>
       </div>

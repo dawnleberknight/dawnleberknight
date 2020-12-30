@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-// import Img from 'gatsby-image'
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import Header from '../components/header'
@@ -44,6 +44,11 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="text-white mt-0">Welcome</h2>
                 <hr className="divider light my-4" />
+                <Img
+                  alt="Profile picture of Dawn Leberknight"
+                  className="rounded-circle mx-auto d-block mb-4"
+                  fixed={this.props.data.images.childImageSharp.fixed}
+                />
                 <p className="text-white mb-4">
                   My name is Dawn Leberknight, and I am working toward my M.Ed.
                   in Educational Technology at University of South Carolina.
@@ -84,137 +89,21 @@ export default class IndexPage extends React.Component {
               elementary school. My family lives in Charleston and enjoys
               exploring our city along with traveling to other places.
             </p>
-          </div>
-        </section>
-
-        {/* <section id="portfolio">
-          <div className="container-fluid p-0">
-            <div className="row no-gutters">
-              <div className="col-lg-4 col-sm-6">
-                <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/1.jpg"
-                  onClick={this.handlePortfolioClick.bind(this, 0)}
-                >
-                  <Img
-                    fluid={
-                      this.props.data.images.edges[0].node.childImageSharp.fluid
-                    }
-                  />
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">Project Name</div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/2.jpg"
-                  onClick={this.handlePortfolioClick.bind(this, 1)}
-                >
-                  <Img
-                    fluid={
-                      this.props.data.images.edges[1].node.childImageSharp.fluid
-                    }
-                  />
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">Project Name</div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/3.jpg"
-                  onClick={this.handlePortfolioClick.bind(this, 2)}
-                >
-                  <Img
-                    fluid={
-                      this.props.data.images.edges[2].node.childImageSharp.fluid
-                    }
-                  />
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">Project Name</div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a
-                  className="portfolio-box"
-                  href="images/portfolio/fullsize/4.jpg"
-                  onClick={this.handlePortfolioClick.bind(this, 3)}
-                >
-                  <Img
-                    fluid={
-                      this.props.data.images.edges[3].node.childImageSharp.fluid
-                    }
-                  />
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">Project Name</div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/5.jpg"
-                  onClick={this.handlePortfolioClick.bind(this, 4)}
-                >
-                  <Img
-                    fluid={
-                      this.props.data.images.edges[4].node.childImageSharp.fluid
-                    }
-                  />
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">Project Name</div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/6.jpg"
-                  onClick={this.handlePortfolioClick.bind(this, 5)}
-                >
-                  <Img
-                    fluid={
-                      this.props.data.images.edges[5].node.childImageSharp.fluid
-                    }
-                  />
-                  <div className="portfolio-box-caption p-3">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">Project Name</div>
-                  </div>
-                </a>
-              </div>
+            <div className="row justify-content-md-center">
+              <iframe
+                width="560"
+                height="315"
+                title="Introduction to Professional Portfolio Website"
+                src="https://www.youtube.com/embed/JsAKDeqWSSQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
-        </section> */}
-
-        <section className="page-section bg-dark text-white">
-          {/* <div className="container text-center">
-            <h2 className="mb-4">Some other section</h2>
-          </div> */}
         </section>
 
-        <section className="page-section" id="contact">
+        <section className="page-section bg-light" id="contact">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
@@ -275,17 +164,12 @@ export default class IndexPage extends React.Component {
 
 export const imageData = graphql`
   query {
-    images: allFile(
-      filter: { relativePath: { glob: "portfolio/fullsize/*.jpg" } }
-      sort: { fields: name }
+    images: file(
+      relativePath: { eq: "portfolio/fullsize/profile-picture.jpg" }
     ) {
-      edges {
-        node {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
+      childImageSharp {
+        fixed(width: 150, height: 150) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
