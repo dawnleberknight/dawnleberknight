@@ -9,7 +9,7 @@ export default {
   contextAndConditions:
     'During the Spring 2020 Design and Development Tools II (EDET 703) course with Dr. Gary Senn, we further developed our technical skills using current and emerging technologies to create web-based projects that included instructional and multimedia elements.',
   scope:
-    'Following the Rapid Prototyping instructional design model that I researched earlier in the course, I created a module using a rapid eLearning development tool, Articulate 360 Rise. The 40-minute “TeamSTEPPS® Commumication” module was intended to be part of a larger course covering the TeamSTEPPS® for Office-Based Care* curriculum.',
+    'Following the Rapid Prototyping instructional design model that I researched earlier in the course, I created a module using a rapid eLearning development tool, Articulate 360 Rise. The 40-minute “TeamSTEPPS® Communication” module was intended to be part of a larger course covering the TeamSTEPPS® for Office-Based Care* curriculum.',
   role:
     'Since I am a certified TeamSTEPPS® Master Trainer, I completed this project by myself and served as the primary subject matter expert, instructional designer, and developer.',
   instructionalDesign:
