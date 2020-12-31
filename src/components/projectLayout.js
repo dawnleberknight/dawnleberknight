@@ -104,9 +104,6 @@ export default class ProjectLayout extends React.Component {
             </div>
           </div>
         </section>
-        <section className="page-section bg-dark text-white">
-          <div className="container text-center"></div>
-        </section>
       </Layout>
     )
   }
