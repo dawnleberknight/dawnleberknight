@@ -38,18 +38,18 @@ export default class IndexPage extends React.Component {
       <Layout page="home">
         <SEO title="Home" />
         <Header />
-        <section className="page-section bg-primary" id="about">
+        <section className="page-section bg-primary-light" id="about">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">Welcome</h2>
-                <hr className="divider light my-4" />
+                <h2 className="mt-0">Welcome</h2>
+                <hr className="divider dark my-4" />
                 <Img
                   alt="Profile picture of Dawn Leberknight"
                   className="rounded-circle mx-auto d-block mb-4"
                   fixed={this.props.data.images.childImageSharp.fixed}
                 />
-                <p className="text-white mb-4">
+                <p className="mb-4">
                   My name is Dawn Leberknight, and I am working toward my M.Ed.
                   in Educational Technology at University of South Carolina.
                   This website is my professional portfolio to highlight my
@@ -62,8 +62,8 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="about">
           <div className="container">
-            <h2 className="text-center mt-0">About Me</h2>
-            <hr className="divider light my-4" />
+            <h3 className="text-center mt-0">About Me</h3>
+            <hr className="divider my-4" />
             <p className="mb-4">
               Currently, I am the Curriculum Coordinator for the South Carolina
               Area Health Education Consortium, whose mission is to provide
@@ -107,7 +107,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="mt-0">Let's Get In Touch!</h2>
+                <h3 className="mt-0">Let's Get In Touch!</h3>
                 <hr className="divider my-4" />
               </div>
             </div>

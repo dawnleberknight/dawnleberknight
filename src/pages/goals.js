@@ -8,11 +8,11 @@ export default class PhilosophyPage extends React.Component {
     return (
       <Layout>
         <SEO title="Philosophy" />
-        <section className="page-section bg-primary pb-5">
+        <section className="page-section bg-primary-light pb-5">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">Goals</h2>
+                <h2 className="mt-0">Goals</h2>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default class PhilosophyPage extends React.Component {
             <div className="row pb-5">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
+                  <i className="fas fa-4x fa-globe text-primary-light mb-4"></i>
                   <p className="text-muted mb-0">
                     Collaborate with local, state, and national partners to
                     provide distance education programs which promote life-long
@@ -55,7 +55,7 @@ export default class PhilosophyPage extends React.Component {
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <i className="fas fa-4x fa-heart text-primary-light mb-4"></i>
                   <p className="text-muted mb-0">
                     Design innovative instruction which inspires students to
                     become healthcare professionals, especially in rural and
@@ -65,7 +65,7 @@ export default class PhilosophyPage extends React.Component {
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                  <i className="fas fa-4x fa-laptop-code text-primary-light mb-4"></i>
                   <p className="text-muted mb-0">
                     Developing didactic and experiential training opportunities
                     which prepare future and current health professionals to
@@ -76,7 +76,7 @@ export default class PhilosophyPage extends React.Component {
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
+                  <i className="fas fa-4x fa-gem text-primary-light mb-4"></i>
                   <p className="text-muted mb-0">
                     Training fellow health professions educators on effective
                     use of instructional design strategies, educational

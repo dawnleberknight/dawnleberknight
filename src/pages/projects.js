@@ -9,11 +9,11 @@ export default class ProjectsPage extends React.Component {
     return (
       <Layout>
         <SEO title="Projects" />
-        <section className="page-section bg-primary pb-5">
+        <section className="page-section bg-primary-light pb-5">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">Projects</h2>
+                <h2 className="mt-0">Projects</h2>
               </div>
             </div>
           </div>
@@ -22,7 +22,7 @@ export default class ProjectsPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-12 text-center">
-                <h2 className="mt-0">Work Samples</h2>
+                <h3 className="mt-0">Work Samples</h3>
                 <hr className="divider my-4" />
                 <div className="text-left">
                   <p>
@@ -40,7 +40,7 @@ export default class ProjectsPage extends React.Component {
                 </div>
                 <table className="table table-hover table-responsive mb-5">
                   <thead>
-                    <tr className="bg-primary text-white">
+                    <tr className="bg-primary-light">
                       <th scope="col" style={{ width: '16.66%' }}>
                         Course
                       </th>

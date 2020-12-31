@@ -9,11 +9,11 @@ export default class ResourcesPage extends React.Component {
     return (
       <Layout>
         <SEO title="Resources" />
-        <section className="page-section bg-primary pb-5">
+        <section className="page-section bg-primary-light pb-5">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">Resources</h2>
+                <h2 className="mt-0">Resources</h2>
               </div>
             </div>
           </div>

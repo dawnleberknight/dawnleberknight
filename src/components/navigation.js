@@ -24,32 +24,34 @@ export default class Navigation extends React.Component {
             </Link>
             <Navbar.Toggle aria-controls="navbarResponsive" />
             <Navbar.Collapse id="navbarResponsive">
-              <Nav className="navbar-nav ml-auto my-2 my-lg-0">
-                <li className="nav-item">
-                  <Nav.Item>
-                    <Link to="/">Home</Link>
-                  </Nav.Item>
-                </li>
-                <li className="nav-item">
-                  <Nav.Item>
-                    <Link to="/goals">Goals</Link>
-                  </Nav.Item>
-                </li>
-                <li className="nav-item">
-                  <Nav.Item>
-                    <Link to="/projects">Projects</Link>
-                  </Nav.Item>
-                </li>
-                <li className="nav-item">
-                  <Nav.Item>
-                    <Link to="/reflection">Reflection</Link>
-                  </Nav.Item>
-                </li>
-                <li className="nav-item">
-                  <Nav.Item>
-                    <Link to="/resources">Resources</Link>
-                  </Nav.Item>
-                </li>
+              <Nav className="ml-auto">
+                <ul className="navbar-nav my-2 my-lg-0">
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Link to="/">Home</Link>
+                    </Nav.Item>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Link to="/goals">Goals</Link>
+                    </Nav.Item>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Link to="/projects">Projects</Link>
+                    </Nav.Item>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Link to="/reflection">Reflection</Link>
+                    </Nav.Item>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Link to="/resources">Resources</Link>
+                    </Nav.Item>
+                  </li>
+                </ul>
               </Nav>
             </Navbar.Collapse>
           </div>

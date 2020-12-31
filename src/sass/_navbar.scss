@@ -8,6 +8,7 @@
     font-weight: $font-weight-bold;
     font-size: 1.4rem;
     color: $secondary;
+    text-decoration: none;
   }
   .navbar-nav {
     .nav-item {
@@ -40,6 +41,9 @@
         &:hover,
         &:active {
           color: $primary;
+        }
+        a {
+          text-decoration: none;
         }
       }
     }
