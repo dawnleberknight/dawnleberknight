@@ -20,6 +20,43 @@ export default class ProjectsPage extends React.Component {
         </section>
         <section className="page-section">
           <div className="container">
+            <div className="row justify-content-center pb-5">
+              <div className="col-lg-12 text-center">
+                <h3 className="mt-0">Summaries of Projects</h3>
+                <hr className="divider my-4" />
+                <div className="text-left">
+                  <p>Some description here...</p>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4 mr-auto text-center">
+                <div className="border border-secondary p-2">
+                  <h4>Portfolio Design and Development</h4>
+                  <Link to="/summaries/portfolio-design-development">
+                    Portfolio Design and Development
+                  </Link>
+                </div>
+              </div>
+              <div className="col-lg-4 mr-auto text-center">
+                <div className="border border-secondary p-2">
+                  <h4>Professional Presentation</h4>
+                  <Link to="/summaries/professional-presentation">
+                    Professional Presentation
+                  </Link>
+                </div>
+              </div>
+              <div className="col-lg-4 mr-auto text-center">
+                <div className="border border-secondary p-2">
+                  <h4>Internship</h4>
+                  <Link to="/summaries/internship">Internship</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="page-section">
+          <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-12 text-center">
                 <h3 className="mt-0">Work Samples</h3>

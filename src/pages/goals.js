@@ -3,11 +3,11 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-export default class PhilosophyPage extends React.Component {
+export default class GoalsPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Philosophy" />
+        <SEO title="Goals" />
         <section className="page-section bg-primary-light pb-5">
           <div className="container">
             <div className="row justify-content-center">
