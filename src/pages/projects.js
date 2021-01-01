@@ -56,7 +56,7 @@ export default function ProjectsPage() {
               <div className="pb-1 image-hover">
                 <Link to="/summaries/portfolio-design-development">
                   <Img
-                    fluid={imageData.images.edges[2].node.childImageSharp.fluid}
+                    fluid={imageData.images.edges[1].node.childImageSharp.fluid}
                     alt="Portfolio Design and Development"
                   />
                 </Link>
@@ -66,7 +66,7 @@ export default function ProjectsPage() {
               <div className="pb-1 image-hover">
                 <Link to="/summaries/professional-presentation">
                   <Img
-                    fluid={imageData.images.edges[3].node.childImageSharp.fluid}
+                    fluid={imageData.images.edges[2].node.childImageSharp.fluid}
                     alt="Professional Presentation"
                   />
                 </Link>
@@ -76,7 +76,7 @@ export default function ProjectsPage() {
               <div className="pb-1 image-hover">
                 <Link to="/summaries/internship">
                   <Img
-                    fluid={imageData.images.edges[1].node.childImageSharp.fluid}
+                    fluid={imageData.images.edges[0].node.childImageSharp.fluid}
                     alt="Internship"
                   />
                 </Link>
