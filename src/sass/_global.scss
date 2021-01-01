@@ -77,3 +77,12 @@ hr.dark {
 a {
   text-decoration: underline;
 }
+
+.image-hover {
+  &:hover {
+    border-bottom: 3px solid $orange;
+    .gatsby-image-wrapper {
+      opacity: 0.7;
+    }
+  }
+}
