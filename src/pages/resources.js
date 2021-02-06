@@ -3,6 +3,27 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ListItem from '../components/listItem'
+import ExternalLink from '../components/externalLink'
+import {
+  GATSBY,
+  GOOGLE_SITES,
+  VERCEL,
+  IMOVIE,
+  GIMP,
+  WEBEX,
+  ZOOM,
+  PHOTO_BOOTH,
+  YOUTUBE,
+  ARTICULAR_RISE,
+  BLACKBOARD_COURSESITES,
+  PIKTOCHART,
+  PADLET,
+  CANVA,
+  FLIPGRID,
+  TRELLO,
+  SLACK,
+  PIXABAY,
+} from '../common/links'
 
 export default function ResourcesPage() {
   return (
@@ -29,175 +50,64 @@ export default function ResourcesPage() {
               </p>
               <ul>
                 <li>
-                  <span>Website Builder: </span>
-                  <a
-                    href="https://www.gatsbyjs.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Gatsby
-                  </a>
-                  <span>, </span>
-                  <a
-                    href="http://sites.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Google Sites
-                  </a>
+                  <span>Website Builder:</span>
+                  <ExternalLink href={GATSBY}>Gatsby</ExternalLink>,
+                  <ExternalLink href={GOOGLE_SITES}>Google Sites</ExternalLink>
                 </li>
                 <li>
-                  <span>Website Deployment and Hosting: </span>
-                  <a
-                    href="https://vercel.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Vercel
-                  </a>
+                  <span>Website Deployment and Hosting:</span>
+                  <ExternalLink href={VERCEL}>Vercel</ExternalLink>
                 </li>
                 <li>
-                  <span>Audio/Video Editing: </span>
-                  <a
-                    href="https://www.apple.com/imovie/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    iMovie
-                  </a>
+                  <span>Audio/Video Editing:</span>
+                  <ExternalLink href={IMOVIE}>iMovie</ExternalLink>
                 </li>
                 <li>
-                  <span>Image Manipulation: </span>
-                  <a
-                    href="https://www.gimp.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GIMP
-                  </a>
+                  <span>Image Manipulation:</span>
+                  <ExternalLink href={GIMP}>GIMP</ExternalLink>
                 </li>
                 <li>
-                  <span>Videoconferencing: </span>
-                  <a
-                    href="https://www.webex.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    WebEx
-                  </a>
-                  <span>, </span>
-                  <a
-                    href="https://zoom.us/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Zoom
-                  </a>
+                  <span>Videoconferencing:</span>
+                  <ExternalLink href={WEBEX}>WebEx</ExternalLink>,
+                  <ExternalLink href={ZOOM}>Zoom</ExternalLink>
                 </li>
                 <li>
-                  <span>Video Recording: </span>
-                  <a
-                    href="https://support.apple.com/guide/photo-booth/welcome/mac"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Photo Booth
-                  </a>
+                  <span>Video Recording:</span>
+                  <ExternalLink href={PHOTO_BOOTH}>Photo Booth</ExternalLink>
                 </li>
                 <li>
-                  <span>Video Hosting: </span>
-                  <a
-                    href="http://youtube.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    YouTube
-                  </a>
+                  <span>Video Hosting:</span>
+                  <ExternalLink href={YOUTUBE}>YouTube</ExternalLink>
                 </li>
                 <li>
-                  <span>Learning Management: </span>
-                  <a
-                    href="https://articulate.com/360/rise"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <span>Learning Management:</span>
+                  <ExternalLink href={ARTICULAR_RISE}>
                     Articular Rise
-                  </a>
-                  <span>, </span>
-                  <a
-                    href="https://www.coursesites.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </ExternalLink>
+                  ,
+                  <ExternalLink href={BLACKBOARD_COURSESITES}>
                     Blackboard CourseSites
-                  </a>
+                  </ExternalLink>
                 </li>
                 <li>
-                  <span>Visual Content Creation: </span>
-                  <a
-                    href="https://piktochart.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Piktochart
-                  </a>
-                  <span>, </span>
-                  <a
-                    href="https://www.canva.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Canva
-                  </a>
+                  <span>Visual Content Creation:</span>
+                  <ExternalLink href={PIKTOCHART}>Piktochart</ExternalLink>,
+                  <ExternalLink href={CANVA}>Canva</ExternalLink>
                 </li>
                 <li>
-                  <span>Collaboration: </span>
-                  <a
-                    href="https://padlet.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Padlet
-                  </a>
-                  <span>, </span>
-                  <a
-                    href="https://info.flipgrid.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Flipgrid
-                  </a>
-                  <span>, </span>
-                  <a
-                    href="https://trello.com/en-US"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Trello
-                  </a>
-                  <span>, </span>
-                  <a
-                    href="https://slack.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Slack
-                  </a>
+                  <span>Collaboration:</span>
+                  <ExternalLink href={PADLET}>Padlet</ExternalLink>,
+                  <ExternalLink href={FLIPGRID}>Flipgrid</ExternalLink>,
+                  <ExternalLink href={TRELLO}>Trello</ExternalLink>,
+                  <ExternalLink href={SLACK}>Slack</ExternalLink>
                 </li>
                 <li>
-                  <span>Free Images: </span>
-                  <a
-                    href="https://pixabay.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Pixabay
-                  </a>
+                  <span>Free Images:</span>
+                  <ExternalLink href={PIXABAY}>Pixabay</ExternalLink>
                 </li>
               </ul>
 
               <h3 className="pt-5">Acknowledgement</h3>
-
               <p>
                 I want to recognize and show appreciation for my husband, Shawn
                 Leberknight, who has provided me with extra support throughout
@@ -205,7 +115,7 @@ export default function ResourcesPage() {
                 program. His experience as a software engineer was especially
                 helpful as I worked on designing and developing this portfolio
                 site, and I appreciate all his advice and tutorials throughout
-                the process.{' '}
+                the process.
               </p>
 
               <h3 className="pt-5">References</h3>
