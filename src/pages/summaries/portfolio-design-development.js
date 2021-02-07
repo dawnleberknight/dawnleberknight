@@ -93,7 +93,7 @@ export default function PortfolioDesignAndDevelopment() {
                 <ExternalLink href={LIGHTHOUSE}>Lighthouse</ExternalLink> was
                 used to check website accessibility within the Chrome browser,
                 and I made updates to the font colors to ensure appropriate
-                contract for accessibility.
+                contrast for accessibility.
               </p>
               <p>
                 Most icons came from
@@ -105,7 +105,7 @@ export default function PortfolioDesignAndDevelopment() {
                 <ExternalLink href={PIXABAY}>Pixabay</ExternalLink>, and I used
                 <ExternalLink href={CANVA}>Canva</ExternalLink> to create custom
                 icons for the Projects webpage. An iframe was used to embed the
-                YouTube introductory video on the homepage,
+                YouTube introductory video on the homepage.
               </p>
               <p>
                 I would edit the site while it was running on a local server on

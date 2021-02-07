@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useStaticQuery } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ListItem from '../components/listItem'
@@ -233,21 +233,24 @@ export default function ProjectsPage() {
                     <td></td>
                     <td></td>
                     <td>
-                      {' '}
                       <Link to="/projects/internship-final-report-presentation">
                         Internship Final Report Presentation
                       </Link>
                     </td>
                     <td></td>
                   </tr>
-                  {/* <tr>
-                      <th scope="row">EDET 735</th>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr> */}
+                  <tr>
+                    <th scope="row">EDET 793</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                      <Link to="/projects/id-model-eLearning">
+                        ID Model eLearning
+                      </Link>
+                    </td>
+                    <td></td>
+                  </tr>
                 </tbody>
               </table>
               <div className="text-left pt-5">
