@@ -14,7 +14,7 @@ export default class Header extends React.Component {
                 <hr className="divider my-4" />
               </div>
               <div className="col-lg-8 align-self-baseline">
-                <p className="text-white-75 font-weight-light mb-5">
+                <p className="text-white font-weight-bold mb-5">
                   Dawn Leberknight's Professional Porfolio
                 </p>
               </div>
