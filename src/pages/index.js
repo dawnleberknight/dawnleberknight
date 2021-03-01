@@ -5,34 +5,8 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import Header from '../components/header'
 import SEO from '../components/seo'
-import Scroller from '../components/scroller'
-import PortfolioModal from '../components/portfolio/modal'
-import PortfolioCarousel from '../components/portfolio/carousel'
 
 export default class IndexPage extends React.Component {
-  constructor(props) {
-    super(props)
-    Scroller.handleAnchorScroll = Scroller.handleAnchorScroll.bind(this)
-    this.state = {
-      modalShow: false,
-      modalCurrent: 0,
-    }
-    this.handlePortfolioClick = this.handlePortfolioClick.bind(this)
-    this.setModal = this.setModal.bind(this)
-  }
-
-  handlePortfolioClick(index, e) {
-    e.preventDefault()
-    this.setModal(true, index)
-  }
-
-  setModal(isShown, current) {
-    this.setState({
-      modalShow: isShown,
-      modalCurrent: current,
-    })
-  }
-
   render() {
     return (
       <Layout page="home">
@@ -148,15 +122,6 @@ export default class IndexPage extends React.Component {
             </div>
           </div>
         </section>
-        <PortfolioModal
-          show={this.state.modalShow}
-          onHide={() => this.setModal(false, 0)}
-        >
-          <PortfolioCarousel
-            images={this.props.data.images.edges}
-            current={this.state.modalCurrent}
-          />
-        </PortfolioModal>
       </Layout>
     )
   }

@@ -2,8 +2,10 @@ export default {
   titleMain: 'ID Model Instructional Design',
   titleSecondary: 'eLearning Product',
   courseNumber: 'EDET 793',
-  // projectLink: '',
-  // projectLink2: '',
+  projectLink:
+    'https://drive.google.com/file/d/1I734fdJM_a18SrfOTfQFy3iFP8M7beM0/view?usp=sharing',
+  projectLink2:
+    'https://publish.udutu.com/published/launch/92886/Course193456/Launch.html',
   standardName: 'AECT Standard 4 – Professional Knowledge and Skills',
   standardSummary:
     'Candidates design, develop, implement, and evaluate technology-rich learning environments within a supportive community of practice.',
