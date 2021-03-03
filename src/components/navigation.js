@@ -33,6 +33,11 @@ export default class Navigation extends React.Component {
                   </li>
                   <li className="nav-item">
                     <Nav.Item>
+                      <Link to="/about">About</Link>
+                    </Nav.Item>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Item>
                       <Link to="/goals">Goals</Link>
                     </Nav.Item>
                   </li>

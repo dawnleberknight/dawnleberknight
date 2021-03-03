@@ -90,6 +90,30 @@ a {
   }
 }
 
+.icon-link {
+  .link-divider {
+    border-color: $orange;
+    border-width: 0.2rem;
+    margin: 0;
+    opacity: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    div:first-child {
+      background-color: #f8f9fa;
+    }
+    // border-bottom: 3px solid $orange;
+    .fas {
+      color: $secondary;
+    }
+    .link-divider {
+      opacity: 1;
+    }
+  }
+}
+
 .image-hover {
   &:hover {
     border-bottom: 3px solid $orange;

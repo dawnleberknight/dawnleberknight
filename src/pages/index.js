@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
@@ -34,45 +34,69 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section" id="about">
+        <section className="page-section" id="site-sections">
           <div className="container">
-            <h3 className="text-center mt-0">About Me</h3>
+            <h3 className="text-center pt-5">What You Will Find Here</h3>
             <hr className="divider my-4" />
-            <p className="mb-4">
-              Currently, I am the Curriculum Coordinator for the South Carolina
-              Area Health Education Consortium, whose mission is to provide
-              education, recruitment, and retention programs to build and
-              support the healthcare workforce in the state. In this role, I
-              primarily focus on developing distance education programs and
-              online courses for future and current healthcare professionals,
-              and I really enjoying being able to work with subject matter
-              experts throughout the state in order to create educational
-              opportunities which meet the diverse needs of our learners.
-            </p>
-            <p className="mb-4">
-              Prior to this role, I worked as Graduate Medical Education
-              Coordinator at the Medical University of South Carolina for seven
-              years and before that I was a 7th grade English teacher for three
-              years. I grew up in eastern North Carolina and moved to
-              Charleston, SC in 2005 to attend College of Charleston.{' '}
-            </p>
-            <p className="mb-4">
-              I have been married for 10 years to my husband Shawn, who is a
-              software engineer. We have a two daughters, 9 year old Brooklyn
-              and 5 year old London, who both attend a wonderful creative arts
-              elementary school. My family lives in Charleston and enjoys
-              exploring our city along with traveling to other places.
-            </p>
-            <div className="row justify-content-md-center">
-              <iframe
-                width="560"
-                height="315"
-                title="Introduction to Professional Portfolio Website"
-                src="https://www.youtube.com/embed/JsAKDeqWSSQ"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+            <div className="row">
+              <div className="col-lg-4 col-md-6 text-center icon-link">
+                <Link to="/about">
+                  <div className="py-5">
+                    <i className="fas fa-4x fa-user-graduate text-primary-light mb-4"></i>
+                    <h4>About</h4>
+                    <p className="text-muted mb-0">Learn more about me.</p>
+                  </div>
+                </Link>
+                <hr className="link-divider" />
+              </div>
+              <div className="col-lg-4 col-md-6 text-center icon-link">
+                <Link to="/goals">
+                  <div className="py-5">
+                    <i className="fas fa-4x fa-bullseye text-primary-light mb-4"></i>
+                    <h4>Goals</h4>
+                    <p className="text-muted mb-0">
+                      Check out my professional goals.
+                    </p>
+                  </div>
+                </Link>
+                <hr className="link-divider" />
+              </div>
+              <div className="col-lg-4 col-md-12 text-center icon-link">
+                <Link to="/projects">
+                  <div className="py-5">
+                    <i className="fas fa-4x fa-pencil-alt text-primary-light mb-4"></i>
+                    <h4>Projects</h4>
+                    <p className="text-muted mb-0">View samples of my work.</p>
+                  </div>
+                </Link>
+                <hr className="link-divider" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 text-center icon-link">
+                <Link to="/reflection">
+                  <div className="py-5">
+                    <i className="fas fa-4x fa-lightbulb text-primary-light mb-4"></i>
+                    <h4>Reflection</h4>
+                    <p className="text-muted mb-0">
+                      Read a reflection on my educational journey.
+                    </p>
+                  </div>
+                </Link>
+                <hr className="link-divider" />
+              </div>
+              <div className="col-md-6 text-center icon-link">
+                <Link to="/resources">
+                  <div className="py-5">
+                    <i className="fas fa-4x fa-wrench text-primary-light mb-4"></i>
+                    <h4>Resources</h4>
+                    <p className="text-muted mb-0">
+                      Review a list of recommended resources.
+                    </p>
+                  </div>
+                </Link>
+                <hr className="link-divider" />
+              </div>
             </div>
           </div>
         </section>
