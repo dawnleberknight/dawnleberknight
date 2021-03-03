@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ListItem from '../components/listItem'
 import ExternalLink from '../components/externalLink'
+import ArrowBullet from '../components/arrowBullet'
 import {
   GATSBY,
   GOOGLE_SITES,
@@ -23,6 +24,7 @@ import {
   TRELLO,
   SLACK,
   PIXABAY,
+  UBUTU,
 } from '../common/links'
 
 export default function ResourcesPage() {
@@ -48,60 +50,75 @@ export default function ResourcesPage() {
                 resources which I find especially helpful and encourage you to
                 explore.
               </p>
-              <ul>
-                <li>
+              <ul class="fa-ul">
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Website Builder:</span>
                   <ExternalLink href={GATSBY}>Gatsby</ExternalLink>,
                   <ExternalLink href={GOOGLE_SITES}>Google Sites</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Website Deployment and Hosting:</span>
                   <ExternalLink href={VERCEL}>Vercel</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Audio/Video Editing:</span>
                   <ExternalLink href={IMOVIE}>iMovie</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Image Manipulation:</span>
                   <ExternalLink href={GIMP}>GIMP</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Videoconferencing:</span>
                   <ExternalLink href={WEBEX}>WebEx</ExternalLink>,
                   <ExternalLink href={ZOOM}>Zoom</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Video Recording:</span>
                   <ExternalLink href={PHOTO_BOOTH}>Photo Booth</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Video Hosting:</span>
                   <ExternalLink href={YOUTUBE}>YouTube</ExternalLink>
                 </li>
-                <li>
-                  <span>Learning Management:</span>
+                <li className="mb-1">
+                  <ArrowBullet />
+                  <span>Rapid eLearning Tools:</span>
                   <ExternalLink href={ARTICULAR_RISE}>
                     Articular Rise
                   </ExternalLink>
-                  ,
+                  ,<ExternalLink href={UBUTU}>Udutu</ExternalLink>
+                </li>
+                <li className="mb-1">
+                  <ArrowBullet />
+                  <span>Learning Management:</span>
                   <ExternalLink href={BLACKBOARD_COURSESITES}>
                     Blackboard CourseSites
                   </ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Visual Content Creation:</span>
                   <ExternalLink href={PIKTOCHART}>Piktochart</ExternalLink>,
                   <ExternalLink href={CANVA}>Canva</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Collaboration:</span>
                   <ExternalLink href={PADLET}>Padlet</ExternalLink>,
                   <ExternalLink href={FLIPGRID}>Flipgrid</ExternalLink>,
                   <ExternalLink href={TRELLO}>Trello</ExternalLink>,
                   <ExternalLink href={SLACK}>Slack</ExternalLink>
                 </li>
-                <li>
+                <li className="mb-1">
+                  <ArrowBullet />
                   <span>Free Images:</span>
                   <ExternalLink href={PIXABAY}>Pixabay</ExternalLink>
                 </li>

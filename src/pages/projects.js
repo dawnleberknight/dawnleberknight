@@ -142,13 +142,23 @@ export default function ProjectsPage() {
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">EDET 722</th>
+                    <th scope="row">EDET 650</th>
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td>
-                      <Link to="/projects/instructional-design-and-assessment-report">
-                        Instructional Design and Assessment Report
+                      <Link to="/projects/internship-final-report-presentation">
+                        Internship Final Report Presentation
                       </Link>
                     </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">EDET 652</th>
+                    <td>
+                      <Link to="/projects/game-design">Game Design</Link>
+                    </td>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -182,34 +192,20 @@ export default function ProjectsPage() {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">EDET 780</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th scope="row">EDET 722</th>
                     <td></td>
                     <td>
-                      <Link to="/projects/group-proposed-research-conference-paper">
-                        Group Proposed Research Conference Paper
-                      </Link>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">EDET 755</th>
-                    <td></td>
-                    <td></td>
-                    <td>
-                      <Link to="/projects/coursesites-course-screencast">
-                        CourseSites Course Screencast
+                      <Link to="/projects/instructional-design-and-assessment-report">
+                        Instructional Design and Assessment Report
                       </Link>
                     </td>
                     <td></td>
                     <td></td>
+                    <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">EDET 652</th>
-                    <td>
-                      <Link to="/projects/game-design">Game Design</Link>
-                    </td>
+                    <th scope="row">EDET 735</th>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -228,16 +224,28 @@ export default function ProjectsPage() {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">EDET 650</th>
+                    <th scope="row">EDET 755</th>
+                    <td></td>
+                    <td></td>
+                    <td>
+                      <Link to="/projects/coursesites-course-screencast">
+                        CourseSites Course Screencast
+                      </Link>
+                    </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">EDET 780</th>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td>
-                      <Link to="/projects/internship-final-report-presentation">
-                        Internship Final Report Presentation
+                      <Link to="/projects/group-proposed-research-conference-paper">
+                        Group Proposed Research Conference Paper
                       </Link>
                     </td>
-                    <td></td>
                   </tr>
                   <tr>
                     <th scope="row">EDET 793</th>
