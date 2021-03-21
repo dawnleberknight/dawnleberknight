@@ -1,4 +1,5 @@
-// This is the JSON template for the data needed to create a project page
+import { MoodleLink } from '../../common/links'
+
 export default {
   titleMain: 'Internship Final Report Presentation',
   titleSecondary: 'Job Aid',
@@ -15,8 +16,7 @@ export default {
     'Although my internship took place with my current employer, South Carolina Area Health Education Consortium (SC AHEC), the project involved work outside my typical scope of practice and allowed me to work with regional AHEC centers, who are private not-for-profit 501(c)3 organizations. I applied my M.Ed. program learning through community service with the development of 20 one-hour online modules, which were designed to develop academically proficient and self-confident future healthcare professionals.',
   role:
     'As a former middle/high school teacher with years of experience in healthcare administration, I served as one of the subject matter experts and collaborated with other subject matter experts, which were the Health Careers Program (HCP) Coordinators throughout South Carolina. In addition, I served as the instructional designer and developer for the online modules.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I worked with fellow SMEs to analyze content that would be helpful for our target audience, which included determining instructional problems, identifying learner characteristics, and analyzing task components. We then designed each of the one-hour online modules, which included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. Then I developed the instructional materials in the SC AHEC learning management system, Moodle, and fellow SMEs reviewed the modules to provide feedback. Once improvements were made to each module, it was implemented and made available for high school students to self-register for each module.',
+  instructionalDesign: `Following ADDIE and MRK instructional design models, I worked with fellow SMEs to analyze content that would be helpful for our target audience, which included determining instructional problems, identifying learner characteristics, and analyzing task components. We then designed each of the one-hour online modules, which included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. Then I developed the instructional materials in the SC AHEC learning management system, ${MoodleLink}, and fellow SMEs reviewed the modules to provide feedback. Once improvements were made to each module, it was implemented and made available for high school students to self-register for each module.`,
   performanceIndicator: [
     // Each of these sections in between the {} represents a new bullet point in the list
     {
@@ -38,7 +38,7 @@ export default {
       indicator:
         'Candidates analyze and interpret data and artifacts and reflect on the effectiveness of the design, development and implementation of technology-supported instruction and learning to enhance their professional growth.',
       implementation:
-        'During the project, I compiled data and created summative evaluation report to measure the degree to which the learning objectives were attained by the end of the “HIPAA Primer” instructional module and to assess reactions toward the module. The most significant and encouraging finding was that 60% of learners strongly agreed/agreed that completion of the module increased their desire to work in a health-related career, which is a primary goal of the project.',
+        'During the project, I compiled data and created a summative evaluation report to measure the degree to which the learning objectives were attained by the end of the “HIPAA Primer” instructional module and to assess reactions toward the module. The most significant and encouraging finding was that 60% of learners strongly agreed/agreed that completion of the module increased their desire to work in a health-related career, which is a primary goal of the project.',
     },
     {
       title: 'Assessing/Evaluating',

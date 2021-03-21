@@ -27,7 +27,9 @@ export default function PortfolioDesignAndDevelopment() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="mt-0">Portfolio Design and Development</h2>
+              <h2 className="mt-0 page-header">
+                Portfolio Design and Development
+              </h2>
             </div>
           </div>
         </div>
@@ -45,12 +47,13 @@ export default function PortfolioDesignAndDevelopment() {
               <h3 className="pt-5">Description</h3>
               <p>
                 The portfolio site uses top-horizontal navigation which adjusts
-                to hamburger menu based on screen size. While the website is
+                to a hamburger menu based on screen size. While the website is
                 non-linear, the intended order of navigation is (1) Home, (2)
-                Goals, (3) Projects, (4) Reflection, (5) Resources. The Projects
-                webpage contains links to additional webpages, and the intended
-                order of navigation is (1) Portfolio Design &amp; Development,
-                (2) Professional Presentation, (3) Internship, (4) Work Samples.
+                About, (3) Goals, (4) Projects, (5) Reflection, (6) Resources.
+                The Projects webpage contains links to additional webpages, and
+                the intended order of navigation is (1) Portfolio Design &amp;
+                Development, (2) Professional Presentation, (3) Internship, (4)
+                Work Samples.
               </p>
               <h3 className="pt-5">Design</h3>
               <p>
@@ -108,11 +111,11 @@ export default function PortfolioDesignAndDevelopment() {
                 YouTube introductory video on the homepage.
               </p>
               <p>
-                I would edit the site while it was running on a local server on
-                my computer so that I could view my changes immediately before
-                publishing. When I am satisfied with the changes, I save the
+                I edited the site while it was running on a local server on my
+                computer so that I could view my changes immediately before
+                publishing. When I was satisfied with the changes, I saved the
                 updates to <ExternalLink href={GITHUB}>GitHub</ExternalLink>,
-                where the source code is stored, and I am using the platform
+                where the source code is stored, and I used the platform
                 <ExternalLink href={VERCEL}>Vercel</ExternalLink> to deploy the
                 updated code for online viewing.
               </p>
@@ -120,11 +123,14 @@ export default function PortfolioDesignAndDevelopment() {
                 My husband, Shawn Leberknight, is a software engineer and
                 reviewed the website frequently during the development process,
                 offering helpful feedback and advice, which I used to edit CSS,
-                HTML, and JavaScript as needed. I also sent the finalized
-                website to colleagues for review and they provided feedback on
-                minor grammatical issues which I corrected. Overall, I am very
-                pleased with my digital portfolio and learned so much during the
-                design and development process.
+                HTML, and JavaScript as needed. During the final stages of
+                development, my website wasI reviewed by the instructor and
+                classmates, and I used their feedback to make additional
+                improvements, such as creating a separate About page, providing
+                more details in my reflection, and adding more reference
+                citations and links. Overall, I am very pleased with my digital
+                portfolio and learned so much during the design and development
+                process.
               </p>
               <div className="row justify-content-center">
                 <div className="col-lg-8 text-center mt-5">

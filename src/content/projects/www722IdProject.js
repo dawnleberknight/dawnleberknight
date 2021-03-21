@@ -1,3 +1,9 @@
+import { GoogleSitesLink, createExternalLink } from '../../common/links'
+const CommonMistakesLink = createExternalLink(
+  'https://drive.google.com/file/d/12AddaHRJFvTFPGmgn8eaAPZ2szF_DWcX/view?usp=sharing',
+  'common mistakes in web page design'
+)
+
 export default {
   titleMain: 'WWW 722 ID Project',
   courseNumber: 'EDET 703',
@@ -25,8 +31,7 @@ export default {
       title: 'Using',
       indicator:
         'Candidates implement appropriate educational technologies and processes based on appropriate content pedagogy.',
-      implementation:
-        'I used Google Sites and many of the platform’s features, such as collapsible text to format true/false questions.',
+      implementation: `I used ${GoogleSitesLink} and many of the platform’s features, such as collapsible text to format true/false questions.`,
     },
     {
       title: 'Assessing/Evaluating',
@@ -40,7 +45,7 @@ export default {
       indicator:
         'Candidates manage appropriate technological processes and resources to provide supportive learning communities, create flexible and diverse learning environments, and develop and demonstrate appropriate content pedagogy.',
       implementation:
-        'Similar to the PowerPoint version of the instructional unit, I created an interactive, web-based module which is self-paced in order to provide flexibility for the learner. Making the same content available in both formats (PowerPoint and web-based) creates different learning environments to best meet the diverse needs of the learners.',
+        'Similar to the PowerPoint version of the instructional unit, I created an interactive, web-based module which is self-paced in order to provide flexibility for the learner. Making the same content available in both formats (PowerPoint and web-based) provides options for delivery of instruction to help support the diverse needs of learners.',
     },
     {
       title: 'Ethics',
@@ -50,6 +55,5 @@ export default {
         'In order to accommodate a diverse group of learners, the series of webpages are designed with user-friendly navigation and simple layout with limited text, subheadings and bulleted lists.',
     },
   ],
-  reflection:
-    'Since I was already familiar with Google Sites platform from previous courses, this artifact demonstrates more advanced application of knowledge and skills. I was able to focus fully on creating the web delivery, since the content was already developed previously in the EDET 722 course. For this project, I continually referred back to common mistakes in web page design (another assignment in the course) in order to make sure that I was following best practices when creating the series of webpages, which included eliminating some non-essential text and images for a more clean and simple design.',
+  reflection: `Since I was already familiar with Google Sites platform from previous courses, this artifact demonstrates more advanced application of knowledge and skills. I was able to focus fully on creating the web delivery, since the content was already developed previously in the EDET 722 course. For this project, I continually referred back to ${CommonMistakesLink} (another assignment in the course) in order to make sure that I was following best practices when creating the series of webpages, which included eliminating some non-essential text and images for a more clean and simple design.`,
 }

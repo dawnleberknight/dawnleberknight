@@ -1,3 +1,14 @@
+import {
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  HarvardMacy6CLink,
+  createExternalLink,
+} from '../../common/links'
+
+const Turner1995 = createExternalLink(
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  'Turner, 1995'
+)
+
 export default {
   titleMain: 'Learning Theory Research Paper',
   courseNumber: 'EDET 709',
@@ -8,12 +19,10 @@ export default {
     'Candidates explore, evaluate, synthesize, and apply methods of inquiry to enhance learning and improve performance.',
   contextAndConditions:
     'During the Spring 2020 Applications of Learning Principles (EDET 709) course with Dr. Erin Besser, we examined behavioral and cognitive learning principles applicable to the design of technology-based instruction and performance training.',
-  scope:
-    'The purpose of the research paper was to further explore and examine a selected learning theory in order to bring a new and interesting perspective to the topic. I chose to focus on the application of 6C’s of Motivation learning theory to online learning for healthcare professionals.',
+  scope: `The purpose of the research paper was to further explore and examine a selected learning theory in order to bring a new and interesting perspective to the topic. I chose to focus on the application of 6C’s of Motivation learning theory (${Turner1995}) to online learning for healthcare professionals.`,
   role:
     'I completed this project by myself and served as the primary subject matter expert after completing extensive research on the topic.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I first analyzed research related to the 6C’s of Motivation in order to create an annotated bibliography of references related to my specific focus on interprofessional, online education for healthcare professions. Next, I designed an outline of my research paper and developed a draft. Then two classmates evaluated my draft and offered suggestions for improvements, which I used to finalize my research paper. Finally, I was able to implement an abbreviated version of my research paper recommendations, which were posted on the Harvard Macy Community Blog*.',
+  instructionalDesign: `Following ADDIE and MRK instructional design models, I first analyzed research related to the 6C’s of Motivation in order to create an annotated bibliography of references related to my specific focus on interprofessional, online education for healthcare professions. Next, I designed an outline of my research paper and developed a draft. Then two classmates evaluated my draft and offered suggestions for improvements, which I used to finalize my research paper. Finally, I was able to implement an abbreviated version of my research paper recommendations, which were posted on the ${HarvardMacy6CLink}.`,
   performanceIndicator: [
     {
       title: 'Theoretical Foundations',
@@ -44,7 +53,7 @@ export default {
     },
   ],
   reflection:
-    'Since I had written research papers in previous courses and dedicated extensive time to the research and drafting process, the Learning Theory Research Paper demonstrates advanced application of knowledge and skills. I appreciated the opportunity to collaborate with UofSC librarian on the research process, which helped to narrow down the literature search. From this project, I was able to identify practical instructional design strategies to use in my current role with SC AHEC and to share with other health professions educators.',
+    'Since I had written research papers in previous courses and dedicated extensive time to the research and drafting process, the Learning Theory Research Paper demonstrates advanced application of knowledge and skills. I appreciated the opportunity to collaborate with a UofSC librarian on the research process, which helped to narrow down the literature search. From this project, I was able to identify practical instructional design strategies to use in my current role with SC AHEC and to share with other health professions educators.',
   references: [
     {
       title: 'Harvard Macy Community Blog',

@@ -1,4 +1,5 @@
-// This is the JSON template for the data needed to create a project page
+import { TeamSTEPPSLink, BlackboardCourseSitesLink } from '../../common/links'
+
 export default {
   titleMain: 'CourseSites Course Screencast',
   // titleSecondary: '',
@@ -14,8 +15,7 @@ export default {
     'The purpose of this project was to gradually develop and implement a fully online course which contained three modules to be completed over the course of three weeks, and I used this opportunity to expand on the TeamSTEPPS® for Office-Based Care module developed in EDET 703.',
   role:
     'As a certified TeamSTEPPS® Master Trainer, I completed this project by myself and served as the primary subject matter expert, instructional designer, and developer.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I first analyzed content (in addition to the formalized TeamSTEPPS® for Office-Based Care curriculum) that would be helpful for our target audience, which included determining instructional problems, identifying learner characteristics, and analyzing task components. I then designed the course by completing the provided templates for course description, syllabus, online tools, and module agenda. This included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. After developing the instruction and evaluation instruments, I implemented the course into Blackboard CourseSites and evaluated the project based on feedback from the instructor.',
+  instructionalDesign: `Following ADDIE and MRK instructional design models, I first analyzed content (in addition to the formalized ${TeamSTEPPSLink} curriculum) that would be helpful for our target audience, which included determining instructional problems, identifying learner characteristics, and analyzing task components. I then designed the course by completing the provided templates for course description, syllabus, online tools, and module agenda. This included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. After designing the instruction and evaluation instruments, I developed the course in ${BlackboardCourseSitesLink} and evaluated the project based on feedback from the instructor.`,
   performanceIndicator: [
     // Each of these sections in between the {} represents a new bullet point in the list
     {
@@ -23,14 +23,14 @@ export default {
       indicator:
         'Candidates create instructional design products based on learning principles and research-based best practices.',
       implementation:
-        'Following the ADDIE and MRK instructional design models, I adapted the evidence-based TeamSTEPPS® for Office-Based Care* curriculum to create the online course.',
+        'Following the ADDIE and MRK instructional design models, I adapted the evidence-based TeamSTEPPS® for Office-Based Care curriculum to create the online course.',
     },
     {
       title: 'Using',
       indicator:
         'Candidates make professionally sound decisions in selecting appropriate processes and resources to provide optimal conditions for learning based on principles, theories, and effective practices.',
       implementation:
-        'I used a variety of online tools to optimize the learning environment, including discussion boards, quiz, essay assignment, multimedia, and course calendar.',
+        'I used a variety of Blackboard CourseSites tools to optimize the learning environment, including discussion boards, quiz, essay assignment, multimedia, and course calendar.',
     },
     {
       title: 'Assessing/Evaluating',
@@ -63,11 +63,4 @@ export default {
   ],
   reflection:
     'This project allowed me to expand on previous course work and demonstrate more advanced application of knowledge and skills for creating an effective online learning environment. Although much of the content is from a formal, structured TeamSTEPPS® curriculum, I was able to incorporate short videos from mainstream media in order to engage students and provide entertainment while still reinforcing the educational content.',
-  // Only use if you need to cite
-  references: [
-    {
-      title: 'TeamSTEPPS® for Office-Based Care',
-      linkTo: 'https://www.ahrq.gov/teamstepps/officebasedcare/index.html',
-    },
-  ],
 }

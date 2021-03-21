@@ -1,4 +1,3 @@
-// This is the JSON template for the data needed to create a project page
 export default {
   titleMain: 'Management of Web 2.0 Tools',
   // titleSecondary: '',
@@ -10,7 +9,7 @@ export default {
   standardSummary:
     'Candidates explore, evaluate, synthesize, and apply methods of inquiry to enhance learning and improve performance.',
   contextAndConditions:
-    'During the Fall 2020 Management of Technology Resources (EDET 746) course with Dr. Gary Seen, we studied the organization and administration of media programs in various educational environments, with emphasis on procedures, problems, and trends for an integrated instructional support system.',
+    'During the Fall 2020 Management of Technology Resources (EDET 746) course with Dr. Gary Senn, we studied the organization and administration of media programs in various educational environments, with emphasis on procedures, problems, and trends for an integrated instructional support system.',
   scope:
     'For this research paper, I examined the use of Web 2.0 tools, specifically wikis and blogs, in health professions education. In the paper, I discussed advantages and disadvantages for each of the Web 2.0 tools and guidelines for managing appropriate use.',
   role:

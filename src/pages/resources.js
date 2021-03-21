@@ -24,7 +24,8 @@ import {
   TRELLO,
   SLACK,
   PIXABAY,
-  UBUTU,
+  UDUTU,
+  MOODLE,
 } from '../common/links'
 
 export default function ResourcesPage() {
@@ -35,7 +36,7 @@ export default function ResourcesPage() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="mt-0">Resources</h2>
+              <h2 className="mt-0 page-header">Resources</h2>
             </div>
           </div>
         </div>
@@ -94,7 +95,7 @@ export default function ResourcesPage() {
                   <ExternalLink href={ARTICULAR_RISE}>
                     Articular Rise
                   </ExternalLink>
-                  ,<ExternalLink href={UBUTU}>Udutu</ExternalLink>
+                  ,<ExternalLink href={UDUTU}>Udutu</ExternalLink>
                 </li>
                 <li className="mb-1">
                   <ArrowBullet />
@@ -102,6 +103,7 @@ export default function ResourcesPage() {
                   <ExternalLink href={BLACKBOARD_COURSESITES}>
                     Blackboard CourseSites
                   </ExternalLink>
+                  ,<ExternalLink href={MOODLE}>Moodle</ExternalLink>
                 </li>
                 <li className="mb-1">
                   <ArrowBullet />
@@ -138,15 +140,35 @@ export default function ResourcesPage() {
               <h3 className="pt-5">References</h3>
               <ul className="list-unstyled">
                 <ListItem>
-                  American Psychological Association. (2010/2019). Publication
-                  manual of the American Psychological Association (6th/7th
-                  ed.). Washington, DC.
-                </ListItem>
-                <ListItem>
                   Association for Educational Communications and Technology
                   (2012). AECT Standards. Bloomington, IN: Association for
                   Educational Communications and Technology. Retrieved from
                   https://www.aect.org/docs/AECTstandards2012.pdf
+                </ListItem>
+                <ListItem>
+                  CAST. (2018). Universal Design for Learning Guidelines.
+                  http://udlguidelines.cast.org
+                </ListItem>
+                <ListItem>
+                  Deci, E. L., &amp; Ryan, R. M. (1985). Intrinsic motivation
+                  and self-determination in human behavior. New York: Plenum
+                  Press.
+                </ListItem>
+                <ListItem>
+                  Dick, W., Carey, L., &amp; Carey, J. (2015). Systematic Design
+                  of Instruction (8th ed.). London, UK: Pearson.
+                </ListItem>
+                <ListItem>
+                  Driscoll, M. (1999.) Gagné's Theory of Instruction. Psychology
+                  of Learning for Instruction (Chapter 10). Boston, MA: Allyn
+                  &amp; Bacon, Inc.
+                </ListItem>
+                <ListItem>
+                  Guay Frédéric, Vallerand, R. J., &amp; Blanchard Céline.
+                  (2000). On the assessment of situational intrinsic and
+                  extrinsic motivation: the situational motivation scale (sims).
+                  Motivation and Emotion, 24(3), 175–213.
+                  https://doi.org/10.1023/A:1005614228250
                 </ListItem>
                 <ListItem>
                   Kapp, K.M. (2012). The gamification of learning and
@@ -159,9 +181,22 @@ export default function ResourcesPage() {
                   https://doi.org/10.1002/pfi.4930420508
                 </ListItem>
                 <ListItem>
-                  Morrison, G. R., Ross, S. M., Kalman, H. K., & Kemp, J. E.
+                  Moreno, R. (2010). An In-Depth Guide to Using Technology in
+                  the Classroom. Educational Psychology (Chapter 14). Hoboken,
+                  NJ: Wiley.
+                </ListItem>
+                <ListItem>
+                  Morrison, G. R., Ross, S. M., Kalman, H. K., &amp; Kemp, J. E.
                   (2013). Designing effective instruction (7th ed.). Hoboken,
-                  NJ: John Wiley & Sons, Inc.
+                  NJ: John Wiley &amp; Sons, Inc.
+                </ListItem>
+                <ListItem>
+                  Tripp, S.D., Bichelmeyer, B. (1990) Rapid prototyping: An
+                  alternative instructional design strategy. Educational
+                  Technology Research and Development, 38(1) 31-44,
+                  https://doi.org/10.1007/BF02298246 Turner, J., &amp; Paris, S.
+                  G. (1995). How literacy tasks influence children’s motivation
+                  for literacy. The Reading Teacher, 48(8), 662-673.
                 </ListItem>
               </ul>
             </div>

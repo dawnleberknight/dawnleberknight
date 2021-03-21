@@ -1,7 +1,61 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import ExternalLink from '../components/externalLink'
+import { DAWN_LEBERKNIGHT_RESOURCES_PAGE } from '../common/links'
 
+const SCAHEC = () => (
+  <ExternalLink href="https://www.scahec.net/">SC AHEC</ExternalLink>
+)
+const Module = () => (
+  <ExternalLink
+    href="https://dawnleberknight.now.sh/projects/rapid-eLearning-tool"
+    spaceBefore={false}
+  >
+    module
+  </ExternalLink>
+)
+const Course = () => (
+  <ExternalLink href="https://dawnleberknight.now.sh/projects/coursesites-course-screencast">
+    course
+  </ExternalLink>
+)
+
+const Internship = () => (
+  <ExternalLink href="https://dawnleberknight.now.sh/summaries/internship">
+    internship
+  </ExternalLink>
+)
+const Turner = () => (
+  <ExternalLink href={DAWN_LEBERKNIGHT_RESOURCES_PAGE} spaceBefore={false}>
+    Turner, 1995
+  </ExternalLink>
+)
+const Kapp = () => (
+  <ExternalLink href={DAWN_LEBERKNIGHT_RESOURCES_PAGE} spaceBefore={false}>
+    Kapp, 2012
+  </ExternalLink>
+)
+const Driscoll = () => (
+  <ExternalLink href={DAWN_LEBERKNIGHT_RESOURCES_PAGE} spaceBefore={false}>
+    Driscoll, 1999
+  </ExternalLink>
+)
+const Moreno = () => (
+  <ExternalLink href={DAWN_LEBERKNIGHT_RESOURCES_PAGE} spaceBefore={false}>
+    Moreno, 2010
+  </ExternalLink>
+)
+const CAST = () => (
+  <ExternalLink href={DAWN_LEBERKNIGHT_RESOURCES_PAGE} spaceBefore={false}>
+    CAST, 2018
+  </ExternalLink>
+)
+const Resources = () => (
+  <ExternalLink href={DAWN_LEBERKNIGHT_RESOURCES_PAGE} spaceBefore={false}>
+    Resources page
+  </ExternalLink>
+)
 export default function ReflectionPage() {
   return (
     <Layout>
@@ -10,7 +64,7 @@ export default function ReflectionPage() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="mt-0">Reflection</h2>
+              <h2 className="mt-0 page-header">Reflection &amp; Synthesis</h2>
             </div>
           </div>
         </div>
@@ -19,28 +73,53 @@ export default function ReflectionPage() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12 text-left">
-              <p>
+              <p className="mb-4">
                 I started the M.Ed. program the same month that I started as the
-                Curriculum Coordinator for SC AHEC. In this role, I collaborate
-                with subject matter experts throughout the state in order to
-                design, develop, and implement distance education opportunities
-                for future and current healthcare professionals. Participating
-                in this program has given me the knowledge, skills, and
-                confidence to be a leader in my field of health professions
-                education.
+                Curriculum Coordinator for {SCAHEC()}. In this role, I
+                collaborate with subject matter experts throughout the state in
+                order to design, develop, and implement distance education
+                opportunities for future and current healthcare professionals.
+                Participating in this program has given me the knowledge,
+                skills, and confidence to be a leader in my field of health
+                professions education.
               </p>
               <p>
                 As demonstrated in my portfolio, I have been able to develop
                 instructional materials and integrate educational technology in
                 my current professional work. For example, I have used the
-                TeamSTEPPS® projects to offer further teamwork trainings for
-                current and future health professionals throughout the state,
-                and the Health Careers Program online modules developed during
-                my internship provided a valuable resource for high school
-                students across the state when distance education was required
-                due to COVID-19 pandemic. I am grateful to be able to directly
-                apply my learning and projects to my role at SC AHEC.
+                TeamSTEPPS® projects ({Module()} and {Course()}) to offer
+                further teamwork trainings for current and future health
+                professionals throughout the state, and the Health Careers
+                Program online modules developed during my {Internship()}{' '}
+                provided a valuable resource for high school students across the
+                state when distance education was required due to COVID-19
+                pandemic. I am grateful to be able to directly apply my learning
+                and projects to my role at SC AHEC.
               </p>
+
+              <h3 className="mt-5">Skills Developed</h3>
+              <p>
+                Over the past two years, I have acquired new knowledge and
+                skills which I look forward to continue applying throughout my
+                life-long learning adventure. I now feel confident in my ability
+                to develop comprehensive instructional design documentation,
+                from the initial stages of conducting a needs assessment to the
+                final stages of developing plans for evaluation and revision. I
+                also feel more equipped with strategies for designing effective
+                instruction, such as applying 6C’s of Motivation learning theory
+                ({Turner()}), incorporating gamification techniques ({Kapp()}),
+                using Gagne’s Nine Events of Instruction ({Driscoll()}),
+                applying Mayer’s multimedia learning principles ({Moreno()}),
+                and utilizing Universal Design for Learning principles ({CAST()}
+                ), in order to support high levels of engagement and achievement
+                for all learners. In addition, my technology skills have
+                significantly improved as I have explored and utilized so many
+                different types of educational technologies over the past two
+                years, and I have some of my favorites listed on the{' '}
+                {Resources()}.
+              </p>
+
+              <h3 className="mt-5">Lessons Learned</h3>
               <p>
                 While I have thoroughly enjoyed the program, it wasn’t without
                 challenges and one of hardest components for me was group work.
@@ -61,6 +140,8 @@ export default function ReflectionPage() {
                 graphic design) and look for resources or team members who can
                 help with those areas.
               </p>
+
+              <h3 className="mt-5">Leadership</h3>
               <p>
                 As I was finishing the first year in the program, the entire
                 world shifted due to the COVID-19 pandemic. Due to health and

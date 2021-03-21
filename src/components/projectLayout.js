@@ -3,6 +3,10 @@ import { Link } from 'gatsby'
 import Layout from './layout'
 import SEO from './seo'
 
+const Paragraph = data => {
+  return <p dangerouslySetInnerHTML={{ __html: data.children }} />
+}
+
 export default class ProjectLayout extends React.Component {
   render() {
     const { data } = this.props
@@ -14,7 +18,7 @@ export default class ProjectLayout extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="mt-0">{data.titleMain}</h2>
+                <h2 className="mt-0 page-header">{data.titleMain}</h2>
               </div>
             </div>
           </div>
@@ -51,13 +55,13 @@ export default class ProjectLayout extends React.Component {
                   )}
                 </h3>
                 <h4 className="mt-5">Context & Conditions</h4>
-                <p>{data.contextAndConditions}</p>
+                <Paragraph>{data.contextAndConditions}</Paragraph>
                 <h4 className="mt-5">Scope</h4>
-                <p>{data.scope}</p>
+                <Paragraph>{data.scope}</Paragraph>
                 <h4 className="mt-5">Role</h4>
-                <p>{data.role}</p>
+                <Paragraph>{data.role}</Paragraph>
                 <h4 className="mt-5">Instructional Design</h4>
-                <p>{data.instructionalDesign}</p>
+                <Paragraph>{data.instructionalDesign}</Paragraph>
                 <h4 className="mt-5">AECT Performance Indicators</h4>
                 {data.performanceIndicator.map((pi, index) => (
                   <div key={index}>
@@ -67,32 +71,13 @@ export default class ProjectLayout extends React.Component {
                     <p className="mb-0">
                       <i>{pi.indicator}</i>
                     </p>
-                    <p>
-                      <strong>{pi.implementation}</strong>
-                    </p>
+                    <strong>
+                      <Paragraph>{pi.implementation}</Paragraph>
+                    </strong>
                   </div>
                 ))}
                 <h4 className="mt-5">Reflection</h4>
-                <p>{data.reflection}</p>
-
-                {data.references && (
-                  <>
-                    <h5 className="mt-5">*Reference</h5>
-                    <ul>
-                      {data.references.map((reference, index) => (
-                        <li key={index}>
-                          <a
-                            href={reference.linkTo}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {reference.title}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </>
-                )}
+                <Paragraph>{data.reflection}</Paragraph>
               </div>
               <div className="col-lg-8 text-center mt-5">
                 <Link to="/projects">

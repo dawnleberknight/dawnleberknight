@@ -10,7 +10,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="mt-0">About Me</h2>
+              <h2 className="mt-0 page-header">About Me</h2>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function AboutPage() {
             Coordinator at the Medical University of South Carolina for seven
             years and before that I was a 7th grade English teacher for three
             years. I grew up in eastern North Carolina and moved to Charleston,
-            SC in 2005 to attend College of Charleston.{' '}
+            SC in 2005 to attend College of Charleston.
           </p>
           <p className="mb-4">
             I have been married for 10 years to my husband Shawn, who is a
