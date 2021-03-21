@@ -1,3 +1,5 @@
+import { SurveyMonkeyLink } from '../../common/links'
+
 export default {
   titleMain: 'Instructional Design and Assessment Report',
   titleSecondary: 'Powerpoint Prototype of Instructional Unit',
@@ -16,7 +18,7 @@ export default {
   role:
     'I completed this project by myself and served as the primary subject matter expert, instructional designer, and developer. I did recruit seven SC AHEC staff to participate in the needs assessment survey in order to better understand the target audience.',
   instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I completed a front-end analysis, which included a need analysis to identify the needs for instruction, a goal analysis that identified the goals for the instruction based on the needs analysis, a learner analysis that describes the characteristics of the target audience; and a contextual analysis that described the instructional context and performance context. I then completed a topical task analysis, developed performance objectives and assessment items, and designed the instructional strategy plan. Finally, I developed the interactive, self-paced e-learning module and a formative evaluation plan, which included evaluation instruments, methods, and intent for data analysis and reporting.',
+    'Following ADDIE and MRK instructional design models, I completed a front-end analysis, which included a need analysis to identify the needs for instruction, a goal analysis that identified the goals for the instruction based on the needs analysis, a learner analysis that describes the characteristics of the target audience (SC AHEC staff), and a contextual analysis that described the instructional context and performance context. I then completed a topical task analysis, developed performance objectives and assessment items, and designed the instructional strategy plan. Finally, I developed the interactive, self-paced e-learning module and a formative evaluation plan, which included evaluation instruments, methods, and intent for data analysis and reporting.',
   performanceIndicator: [
     {
       title: 'Creating',
@@ -29,8 +31,7 @@ export default {
       title: 'Using',
       indicator:
         'Candidates implement appropriate educational technologies and processes based on appropriate content pedagogy.',
-      implementation:
-        'I used Survey Monkey (needs assessment survey) and PowerPoint (instructional module).',
+      implementation: `I used ${SurveyMonkeyLink} to develop the needs assessment survey and PowerPoint to develop the instructional module.`,
     },
     {
       title: 'Assessing/Evaluating',

@@ -1,3 +1,15 @@
+import {
+  TeamSTEPPSLink,
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  createExternalLink,
+  ArticulateRiseLink,
+} from '../../common/links'
+
+const Tripp1990 = createExternalLink(
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  'Tripp, 1990'
+)
+
 export default {
   titleMain: 'Rapid eLearning Tool',
   courseNumber: 'EDET 703',
@@ -8,12 +20,11 @@ export default {
     'Candidates facilitate learning by creating, using, evaluating, and managing effective learning environments.',
   contextAndConditions:
     'During the Spring 2020 Design and Development Tools II (EDET 703) course with Dr. Gary Senn, we further developed our technical skills using current and emerging technologies to create web-based projects that included instructional and multimedia elements.',
-  scope:
-    'Following the Rapid Prototyping instructional design model that I researched earlier in the course, I created a module using a rapid eLearning development tool, Articulate 360 Rise. The 40-minute “TeamSTEPPS® Communication” module was intended to be part of a larger course covering the TeamSTEPPS® for Office-Based Care* curriculum.',
+  scope: `Following the Rapid Prototyping instructional design model (${Tripp1990}) that I researched earlier in the course, I created a module using a rapid eLearning development tool, ${ArticulateRiseLink}. The 40-minute “TeamSTEPPS® Communication” module was intended to be part of a larger course covering the ${TeamSTEPPSLink} curriculum.`,
   role:
     'Since I am a certified TeamSTEPPS® Master Trainer, I completed this project by myself and served as the primary subject matter expert, instructional designer, and developer.',
   instructionalDesign:
-    'Following Rapid Prototyping instructional design model, which overlaps with the ADDIE and MRK models, I began with an analysis of needs and existing TeamSTEPPS® content along with tentative objectives and continued with the parallel processes of designing and utilizing the module. The next step in the Rapid Prototyping instructional design process would be to design additional courses as part of the TeamSTEPPS® series and continue pilot test and revise content and learning objectives as needed.',
+    'Following Rapid Prototyping instructional design model, which overlaps with the ADDIE and MRK models, I began with an analysis of needs and existing TeamSTEPPS® content along with tentative objectives. I continued with the parallel and combined processes of constructing (designing and developing) and utilizing (implementing and evaluating) the instructional module prototype. The next step in the Rapid Prototyping instructional design process would be to design additional modules as part of the TeamSTEPPS® series and continue pilot testing and revising content and learning objectives as needed.',
   performanceIndicator: [
     {
       title: 'Creating',
@@ -33,7 +44,7 @@ export default {
       indicator:
         'Candidates use multiple assessment strategies to collect data for informing decisions to improve instructional practice, learner outcomes, and the learning environment.',
       implementation:
-        'In order to evaluate the effectiveness of the instructional material and learning environment, I developed a 3-question multiple-choice quiz to be completed by the learner at the end of the module. In addition, two pilot testers completed the module and offered feedback for improvements.',
+        'In order to evaluate the effectiveness of the instructional material and learning environment, I developed a three-question multiple-choice quiz to be completed by the learner at the end of the module. In addition, two pilot testers completed the module and offered feedback for improvements.',
     },
     {
       title: 'Managing',
@@ -58,11 +69,5 @@ export default {
     },
   ],
   reflection:
-    'Since I was already familiar with the TeamSTEPPS® curriculum and Articulate 360 Rise e-learning tool, this artifact demonstrates more advanced application of knowledge and skills. I have taught the concepts within the face-to-face learning environment, but this project allowed me to apply instructional design strategies to optimize the online learning environment.',
-  references: [
-    {
-      title: 'TeamSTEPPS® for Office-Based Care',
-      linkTo: 'https://www.ahrq.gov/teamstepps/officebasedcare/index.html',
-    },
-  ],
+    'Since I was already familiar with the TeamSTEPPS® curriculum and Articulate 360 Rise e-learning tool, this artifact demonstrates more advanced application of knowledge and skills. I have taught the concepts within the face-to-face learning environment, but this project allowed me to apply instructional design strategies to optimize the online learning environment. In addition, I was able to explore and apply a new instructional design model, Rapid Prototyping, and I can see the benefits of using this model in certain circumstances and contexts.',
 }

@@ -29,4 +29,44 @@ export const PADLET = 'https://padlet.com/'
 export const FLIPGRID = 'https://info.flipgrid.com/'
 export const TRELLO = 'https://trello.com/en-US'
 export const SLACK = 'https://slack.com/'
-export const UBUTU = 'http://udutu.com/'
+export const UDUTU = 'http://udutu.com/'
+export const TEAM_STEPPS =
+  'https://www.ahrq.gov/teamstepps/officebasedcare/index.html'
+export const SURVEY_MONKEY = 'https://www.surveymonkey.com/'
+export const MOODLE = 'https://moodle.org/'
+export const HARVARD_MACY_6C =
+  'https://www.harvardmacy.org/index.php/hmi/applying-the-6cs'
+
+export const DAWN_LEBERKNIGHT_RESOURCES_PAGE =
+  'https://dawnleberknight.now.sh/resources/'
+
+export const createExternalLink = (linkTo, text) =>
+  `<a href="${linkTo}" target="_blank" rel="noopener noreferrer">${text}</a>`
+
+// Used in project data files
+export const GoogleSitesLink = createExternalLink(GOOGLE_SITES, 'Google Sites')
+export const CanvaLink = createExternalLink(CANVA, 'Canva')
+export const CitrixWebExLink = createExternalLink(WEBEX, 'Citrix WebEx')
+export const IMovieLink = createExternalLink(IMOVIE, 'iMovie')
+export const TeamSTEPPSLink = createExternalLink(
+  TEAM_STEPPS,
+  'TeamSTEPPS® for Office-Based Care'
+)
+export const SurveyMonkeyLink = createExternalLink(
+  SURVEY_MONKEY,
+  'Survey Monkey'
+)
+export const ArticulateRiseLink = createExternalLink(
+  ARTICULAR_RISE,
+  'Articulate 360 Rise'
+)
+export const BlackboardCourseSitesLink = createExternalLink(
+  BLACKBOARD_COURSESITES,
+  'Blackboard CourseSites'
+)
+export const MoodleLink = createExternalLink(MOODLE, 'Moodle')
+export const UdutuLink = createExternalLink(UDUTU, 'Udutu')
+export const HarvardMacy6CLink = createExternalLink(
+  HARVARD_MACY_6C,
+  'Harvard Macy Community Blog'
+)

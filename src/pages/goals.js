@@ -10,7 +10,7 @@ export default function GoalsPage() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="mt-0">Goals</h2>
+              <h2 className="mt-0 page-header">Goals</h2>
             </div>
           </div>
         </div>

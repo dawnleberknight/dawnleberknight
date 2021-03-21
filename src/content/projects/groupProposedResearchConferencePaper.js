@@ -1,4 +1,17 @@
-// This is the JSON template for the data needed to create a project page
+import {
+  createExternalLink,
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+} from '../../common/links'
+
+const Deci1985 = createExternalLink(
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  'Deci, 1985'
+)
+const Guay2000 = createExternalLink(
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  'Guay, 2000'
+)
+
 export default {
   titleMain: 'Group Proposed Research Conference Paper',
   titleSecondary: 'Presentation',
@@ -23,8 +36,7 @@ export default {
       title: 'Theoretical Foundations',
       indicator:
         'Candidates demonstrate foundational knowledge of the contribution of research to the past and current theory of educational communications and technology.',
-      implementation:
-        'We completed extensive research on student motivation, including Self-Determination Theory (SDT), along with the impact of gamification in the online learning environment.',
+      implementation: `We completed extensive research on student motivation, including Self-Determination Theory (${Deci1985}), along with the impact of gamification in the online learning environment.`,
     },
     {
       title: 'Method',
@@ -37,8 +49,7 @@ export default {
       title: 'Assessing/Evaluating',
       indicator:
         'Candidates apply formal inquiry strategies in assessing and evaluating processes and resources for learning and performance.',
-      implementation:
-        'Following the SDT framework, we decided to measure self-reported student motivation using the validated Situation Motivation Scale (Guay, 2000) in order to determine if there was a correlation between the use of digital credentials and student motivation in the online course.',
+      implementation: `Following the SDT framework, we decided to measure self-reported student motivation using the validated Situation Motivation Scale (${Guay2000}) in order to determine if there was a correlation between the use of digital credentials and student motivation in the online course.`,
     },
     {
       title: 'Ethics',
@@ -48,5 +59,5 @@ export default {
     },
   ],
   reflection:
-    'I used this project as an opportunity to collaborate with classmates who are also involved in higher education online learning, and we each brought unique strengths and abilities to team. Both the Group Proposed Research Conference Paper and Presentation demonstrate advanced application of our combined knowledge and skills, and I am hopeful to be able use some of the concepts from our proposed research study in my future work with student motivation in the online learning environment.',
+    'I used this project as an opportunity to collaborate with classmates who are also involved in higher education online learning, and we each brought unique strengths and abilities to the team. Both the Group Proposed Research Conference Paper and Presentation demonstrate advanced application of our combined knowledge and skills, and I am hopeful to be able use some of the concepts from our proposed research study in my future work with student motivation in the online learning environment.',
 }

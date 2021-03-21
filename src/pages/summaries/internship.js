@@ -12,7 +12,7 @@ export default function Internship() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="mt-0">Internship</h2>
+              <h2 className="mt-0 page-header">Internship</h2>
             </div>
           </div>
         </div>
