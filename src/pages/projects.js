@@ -263,6 +263,12 @@ export default function ProjectsPage() {
               </table>
               <div className="text-left pt-5">
                 <h3>References</h3>
+                <p>
+                  <small class="text-muted">
+                    The following materials are referenced on each of the work
+                    sample pages.
+                  </small>
+                </p>
                 <ul className="list-unstyled">
                   <ListItem>
                     Association for Educational Communications and Technology
@@ -272,13 +278,13 @@ export default function ProjectsPage() {
                   </ListItem>
                   <ListItem>
                     Molenda, M. (2007). In search of the elusive ADDIE model.
-                    Performance Improvement, 42(5), 34-36.
+                    <em> Performance Improvement, 42 </em>(5), 34-36.
                     https://doi.org/10.1002/pfi.4930420508
                   </ListItem>
                   <ListItem>
                     Morrison, G. R., Ross, S. M., Kalman, H. K., & Kemp, J. E.
-                    (2013). Designing effective instruction (7th ed.). Hoboken,
-                    NJ: John Wiley & Sons, Inc.
+                    (2013). <em>Designing Effective Instruction</em> (7th ed.).
+                    Hoboken, NJ: John Wiley & Sons, Inc.
                   </ListItem>
                 </ul>
               </div>

@@ -112,7 +112,7 @@ export default function ReflectionPage() {
                 applying Mayer’s multimedia learning principles ({Moreno()}),
                 and utilizing Universal Design for Learning principles ({CAST()}
                 ), in order to support high levels of engagement and achievement
-                for all learners. In addition, my technology skills have
+                for all learners. In addition, my technical skills have
                 significantly improved as I have explored and utilized so many
                 different types of educational technologies over the past two
                 years, and I have some of my favorites listed on the{' '}

@@ -50,7 +50,7 @@ export default {
       title: 'Reflection on Practice',
       indicator:
         'Candidates analyze and interpret data and artifacts and reflect on the effectiveness of the design, development and implementation of technology-supported instruction and learning to enhance their professional growth.',
-      implementation: `I explored and learned more about the Dick and Carey model, Mayer’s multimedia learning principles (${Moreno2010}), and the new rapid eLearning development tool (Udutu) in order to further progress in my role as an instructional designer.`,
+      implementation: `I explored and learned more about the Dick and Carey model, Mayer’s multimedia learning principles (${Moreno2010}), and the new rapid eLearning development tool Udutu in order to further progress in my role as an instructional designer.`,
     },
     {
       title: 'Assessing/Evaluating',

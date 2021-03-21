@@ -3,6 +3,10 @@ const CommonMistakesLink = createExternalLink(
   'https://drive.google.com/file/d/12AddaHRJFvTFPGmgn8eaAPZ2szF_DWcX/view?usp=sharing',
   'common mistakes in web page design'
 )
+const PowerPointPrototypeLink = createExternalLink(
+  'https://dawnleberknight.now.sh/projects/instructional-design-and-assessment-report',
+  'PowerPoint Prototype of Instructional Unit'
+)
 
 export default {
   titleMain: 'WWW 722 ID Project',
@@ -13,8 +17,7 @@ export default {
     'Candidates develop as reflective practitioners able to demonstrate effective implementation of educational technologies and processes based on contemporary content and pedagogy.',
   contextAndConditions:
     'During the Spring 2020 Design and Development Tools II (EDET 703) course with Dr. Gary Senn, we further developed our technical skills using current and emerging technologies to create a web-based project that included instructional and multimedia elements.',
-  scope:
-    'The goal of this assignment was to create a web-based version of the previously developed PowerPoint Prototype of Instructional Unit from EDET 722. After researching the biggest mistakes in webpage design, I focused on best practices for web delivery and created a series of webpages to present the EDET 722 instructional unit online.',
+  scope: `The goal of this assignment was to create a web-based version of the previously developed ${PowerPointPrototypeLink} from EDET 722. After researching the biggest mistakes in webpage design, I focused on best practices for web delivery and created a series of webpages to present the EDET 722 instructional unit online.`,
   role:
     'I completed this project by myself and served as the instructional designer and developer.',
   instructionalDesign:
