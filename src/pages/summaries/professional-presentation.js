@@ -11,7 +11,7 @@ export default function ProfessionalPresentation() {
       <section className="page-section bg-primary-light pb-5">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8 text-center">
+            <div className="col-lg-12 text-center">
               <h2 className="mt-0 page-header">Professional Presentation</h2>
             </div>
           </div>
@@ -20,12 +20,18 @@ export default function ProfessionalPresentation() {
       <section className="page-section">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <h3>Presentation Title</h3>
+            <div className="col-lg-12">
+              <h3>Presentation</h3>
               <p>
                 Applying an Asset-based Approach to the Development of
                 Innovative and Sustainable Interprofessional Education Programs
               </p>
+              <h3 className="pt-5">
+                Work Sample -
+                <ExternalLink href="https://drive.google.com/file/d/1YXmfvj34h1OWr--rqElq32ufUVtfUduX/view?usp=sharing">
+                  Presentation Slides
+                </ExternalLink>
+              </h3>
               <h3 className="pt-5">Conference</h3>
               <p>
                 The Generalist in Medical Education (TGME) Annual Conference
@@ -77,14 +83,8 @@ export default function ProfessionalPresentation() {
                 applying what I learned to the next professional presentation
                 experience.
               </p>
-              <h3 className="pt-5">Work Sample</h3>
-              <p>
-                <ExternalLink href="https://drive.google.com/file/d/1YXmfvj34h1OWr--rqElq32ufUVtfUduX/view?usp=sharing">
-                  Presentation Slides
-                </ExternalLink>
-              </p>
               <div className="row justify-content-center">
-                <div className="col-lg-8 text-center mt-5">
+                <div className="col-lg-12 text-center mt-5">
                   <Link to="/projects">
                     <button className="btn btn-primary-light btn-xl">
                       Back to Projects

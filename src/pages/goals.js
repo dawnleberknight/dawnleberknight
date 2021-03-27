@@ -63,9 +63,9 @@ export default function GoalsPage() {
               <div className="mt-5">
                 <i className="fas fa-4x fa-laptop-code text-primary-light mb-4"></i>
                 <p className="text-muted mb-0">
-                  Developing didactic and experiential training opportunities
-                  which prepare future and current health professionals to
-                  become leaders in interprofessional, transformative practice.
+                  Develop didactic and experiential training opportunities which
+                  prepare future and current health professionals to become
+                  leaders in interprofessional, transformative practice.
                 </p>
               </div>
             </div>
@@ -73,9 +73,9 @@ export default function GoalsPage() {
               <div className="mt-5">
                 <i className="fas fa-4x fa-gem text-primary-light mb-4"></i>
                 <p className="text-muted mb-0">
-                  Training fellow health professions educators on effective use
-                  of instructional design strategies, educational technology,
-                  and best practices for online learning.
+                  Train fellow health professions educators on effective use of
+                  instructional design strategies, educational technology, and
+                  best practices for online learning.
                 </p>
               </div>
             </div>

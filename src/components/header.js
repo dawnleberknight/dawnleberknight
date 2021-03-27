@@ -1,4 +1,5 @@
 import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 
 export default function Header() {
   return (
@@ -7,14 +8,18 @@ export default function Header() {
         <div className="container h-100">
           <div className="row h-100 align-items-center justify-content-center text-center">
             <div className="col-lg-10 align-self-end">
-              <h1 className="text-uppercase text-white font-weight-bold">
-                The Adventure of Learning
-              </h1>
-              <hr className="divider my-4" />
+              <div className="d-flex justify-content-center">
+                <StaticImage
+                  src="../images/logo.png"
+                  alt="Adventure of Learning Logo"
+                  height="400"
+                  width="400"
+                />
+              </div>
             </div>
             <div className="col-lg-8 align-self-baseline">
               <p className="text-white font-weight-bold mb-5">
-                Dawn Leberknight's Professional Porfolio
+                Dawn Leberknight's Professional Portfolio
               </p>
             </div>
           </div>

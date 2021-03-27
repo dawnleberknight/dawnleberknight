@@ -11,7 +11,7 @@ export default function Internship() {
       <section className="page-section bg-primary-light pb-5">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8 text-center">
+            <div className="col-lg-12 text-center">
               <h2 className="mt-0 page-header">Internship</h2>
             </div>
           </div>
@@ -20,7 +20,7 @@ export default function Internship() {
       <section className="page-section">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <p>
                 I was grateful for the opportunity to apply my M.Ed. program
                 learning through community service with the development of 20
@@ -31,13 +31,26 @@ export default function Internship() {
                 to address disparities in the health professions workforce in
                 South Carolina.
               </p>
+              <h3 className="pt-5">
+                Work Sample -
+                <ExternalLink href="https://drive.google.com/file/d/19U-hec4fDzM7QHosa_LQu4EZYiEV7gHp/view">
+                  Job Aid
+                </ExternalLink>
+              </h3>
               <h3 className="pt-5">Site</h3>
               <p>
                 My internship took place at South Carolina Area Health Education
-                Consortium (SC AHEC). While I am employed by this state agency,
-                the internship project involved work outside my typical scope of
-                practice and allowed me to work more directly with regional AHEC
-                centers, who are private not-for-profit 501(c)3 organizations.
+                Consortium (
+                <ExternalLink
+                  spaceBefore={false}
+                  href="https://www.scahec.net/"
+                >
+                  SC AHEC
+                </ExternalLink>
+                ). While I am employed by this state agency, the internship
+                project involved work outside my typical scope of practice and
+                allowed me to work more directly with regional AHEC centers, who
+                are private not-for-profit 501(c)3 organizations.
               </p>
               <h3 className="pt-5">Supervisor</h3>
               <p>
@@ -132,12 +145,6 @@ export default function Internship() {
                 make the instructional design process more efficient and
                 effective.
               </p>
-              <h3 className="pt-5">Work Sample</h3>
-              <p>
-                <ExternalLink href="https://drive.google.com/file/d/19U-hec4fDzM7QHosa_LQu4EZYiEV7gHp/view">
-                  Job Aid
-                </ExternalLink>
-              </p>
               <div className="pt-5">
                 <p>
                   For more information about my internship experience, please
@@ -150,7 +157,7 @@ export default function Internship() {
               </div>
 
               <div className="row justify-content-center">
-                <div className="col-lg-8 text-center mt-5">
+                <div className="col-lg-12 text-center mt-5">
                   <Link to="/projects">
                     <button className="btn btn-primary-light btn-xl">
                       Back to Projects
