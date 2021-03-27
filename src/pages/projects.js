@@ -1,30 +1,11 @@
 import React from 'react'
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ListItem from '../components/listItem'
-import Img from 'gatsby-image'
+import { StaticImage } from 'gatsby-plugin-image'
 
 export default function ProjectsPage() {
-  const imageData = useStaticQuery(graphql`
-    query {
-      images: allFile(
-        filter: { relativePath: { glob: "projects/*.png" } }
-        sort: { fields: name }
-      ) {
-        edges {
-          node {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <Layout>
       <SEO title="Projects" />
@@ -55,8 +36,8 @@ export default function ProjectsPage() {
             <div className="col-sm-4 mr-auto text-center pb-3">
               <div className="pb-1 image-hover">
                 <Link to="/summaries/portfolio-design-development">
-                  <Img
-                    fluid={imageData.images.edges[1].node.childImageSharp.fluid}
+                  <StaticImage
+                    src="../images/projects/portfolio-design-development.png"
                     alt="Portfolio Design and Development"
                   />
                 </Link>
@@ -65,8 +46,8 @@ export default function ProjectsPage() {
             <div className="col-sm-4 mr-auto text-center pb-3">
               <div className="pb-1 image-hover">
                 <Link to="/summaries/professional-presentation">
-                  <Img
-                    fluid={imageData.images.edges[2].node.childImageSharp.fluid}
+                  <StaticImage
+                    src="../images/projects/professional-presentation.png"
                     alt="Professional Presentation"
                   />
                 </Link>
@@ -75,8 +56,8 @@ export default function ProjectsPage() {
             <div className="col-sm-4 mr-auto text-center">
               <div className="pb-1 image-hover">
                 <Link to="/summaries/internship">
-                  <Img
-                    fluid={imageData.images.edges[0].node.childImageSharp.fluid}
+                  <StaticImage
+                    src="../images/projects/internship.png"
                     alt="Internship"
                   />
                 </Link>

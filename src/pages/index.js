@@ -1,6 +1,6 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import Header from '../components/header'
@@ -17,10 +17,13 @@ export default function IndexPage({ data }) {
             <div className="col-lg-8 text-center">
               <h2 className="mt-0">Welcome</h2>
               <hr className="divider dark my-4" />
-              <Img
+              <StaticImage
+                src="../images/profile-picture.jpg"
                 alt="Profile picture of Dawn Leberknight"
                 className="rounded-circle mx-auto d-block mb-4"
-                fixed={data.images.childImageSharp.fixed}
+                layout="fixed"
+                width={160}
+                height={160}
               />
               <p className="mb-4">
                 My name is Dawn Leberknight, and I am working toward my M.Ed. in
@@ -148,17 +151,3 @@ export default function IndexPage({ data }) {
     </Layout>
   )
 }
-
-export const imageData = graphql`
-  query {
-    images: file(
-      relativePath: { eq: "portfolio/fullsize/profile-picture.jpg" }
-    ) {
-      childImageSharp {
-        fixed(width: 150, height: 150) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`
