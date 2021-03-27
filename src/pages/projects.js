@@ -219,6 +219,7 @@ export default function ProjectsPage() {
                   <StaticImage
                     src="../images/projects/portfolio-design-development.png"
                     alt="Portfolio Design and Development"
+                    placeholder="blurred"
                   />
                 </Link>
               </div>
@@ -229,6 +230,7 @@ export default function ProjectsPage() {
                   <StaticImage
                     src="../images/projects/professional-presentation.png"
                     alt="Professional Presentation"
+                    placeholder="blurred"
                   />
                 </Link>
               </div>
@@ -239,6 +241,7 @@ export default function ProjectsPage() {
                   <StaticImage
                     src="../images/projects/internship.png"
                     alt="Internship"
+                    placeholder="blurred"
                   />
                 </Link>
               </div>

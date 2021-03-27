@@ -12,6 +12,7 @@ export default function Header() {
                 <StaticImage
                   src="../images/logo.png"
                   alt="Adventure of Learning Logo"
+                  placeholder="blurred"
                   height="400"
                   width="400"
                 />

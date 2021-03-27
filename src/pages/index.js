@@ -20,6 +20,7 @@ export default function IndexPage({ data }) {
               <StaticImage
                 src="../images/profile-picture.jpg"
                 alt="Profile picture of Dawn Leberknight"
+                placeholder="blurred"
                 className="rounded-circle mx-auto d-block mb-4"
                 layout="fixed"
                 width={160}
