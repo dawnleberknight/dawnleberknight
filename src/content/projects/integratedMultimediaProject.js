@@ -5,7 +5,7 @@ import {
   IMovieLink,
 } from '../../common/links'
 
-export default {
+const data = {
   titleMain: 'Integrated Multimedia Project',
   courseNumber: 'EDET 603',
   projectLink: 'https://sites.google.com/view/teacher-confessions/home',
@@ -58,3 +58,5 @@ export default {
   reflection:
     'Since I was not familiar with the process for developing a vodcast, I learned how to utilize a storyboard for the development stage. In addition, I had not created cover art and enjoyed exploring the features available in Canva. Looking back now, I would have spent more time testing the recording program and equipment in order to make improvements to the sound quality for both the vodcast and podcast. Since many of the technological resources and processes were new for us, the artifact demonstrates application of our newly acquired knowledge and skills.',
 }
+
+export default data

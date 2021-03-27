@@ -1,4 +1,4 @@
-export default {
+const data = {
   titleMain: 'Management of Web 2.0 Tools',
   // titleSecondary: '',
   courseNumber: 'EDET 746',
@@ -49,3 +49,5 @@ export default {
   reflection:
     'Having already written a few research papers at this point in the training program, I was more familiar with the research and writing process, so this artifact demonstrates more advanced application of knowledge and skills. I enjoyed exploring the advantages and disadvantages of incorporating Web 2.0 tools into my health professions education and carefully considering whether wikis and blogs would be appropriate for use in my specific professional work. I look forward to analyzing and incorporating other current and emerging collaborative online tools into my professional practice.',
 }
+
+export default data

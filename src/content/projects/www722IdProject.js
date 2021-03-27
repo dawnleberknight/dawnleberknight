@@ -8,7 +8,7 @@ const PowerPointPrototypeLink = createExternalLink(
   'PowerPoint Prototype of Instructional Unit'
 )
 
-export default {
+const data = {
   titleMain: 'WWW 722 ID Project',
   courseNumber: 'EDET 703',
   projectLink: 'https://sites.google.com/view/leberknight-idproject',
@@ -60,3 +60,5 @@ export default {
   ],
   reflection: `Since I was already familiar with Google Sites platform from previous courses, this artifact demonstrates more advanced application of knowledge and skills. I was able to focus fully on creating the web delivery, since the content was already developed previously in the EDET 722 course. For this project, I continually referred back to ${CommonMistakesLink} (another assignment in the course) in order to make sure that I was following best practices when creating the series of webpages, which included eliminating some non-essential text and images for a more clean and simple design.`,
 }
+
+export default data

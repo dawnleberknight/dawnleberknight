@@ -13,7 +13,7 @@ const Moreno2010 = createExternalLink(
   'Moreno, 2010'
 )
 
-export default {
+const data = {
   titleMain: 'ID Model Instructional Design',
   titleSecondary: 'eLearning Product',
   courseNumber: 'EDET 793',
@@ -69,3 +69,5 @@ export default {
   ],
   reflection: `Since this was one of the final projects in the M.Ed. program, I had advanced experience with following the MRK instructional design process to develop an eLearning product. However, Udutu was a rapid eLearning development tool which I had not yet used, and I enjoyed learning and gaining experience with this program. In addition, I learned about Mayer's multimedia learning principles, such as using conversational-style verbal explanations (rather than just written explanations) and segmenting longer instructional modules into smaller, learner-controlled and navigated segments, and I applied those concepts when designing and developing the eLearning module.`,
 }
+
+export default data

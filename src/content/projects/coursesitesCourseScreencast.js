@@ -8,7 +8,8 @@ const TeamSteppsModule = createExternalLink(
   'https://dawnleberknight.now.sh/projects/rapid-eLearning-tool',
   'TeamSTEPPS® for Office-Based Care module'
 )
-export default {
+
+const data = {
   titleMain: 'CourseSites Course Screencast',
   // titleSecondary: '',
   courseNumber: 'EDET 755',
@@ -71,3 +72,5 @@ export default {
   reflection:
     'This project allowed me to expand on previous course work and demonstrate more advanced application of knowledge and skills for creating an effective online learning environment. Although much of the content is from a formal, structured TeamSTEPPS® curriculum, I was able to incorporate short videos from mainstream media in order to engage students and provide entertainment while still reinforcing the educational content.',
 }
+
+export default data
