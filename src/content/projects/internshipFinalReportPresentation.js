@@ -1,6 +1,6 @@
 import { MoodleLink } from '../../common/links'
 
-export default {
+const data = {
   titleMain: 'Internship Final Report Presentation',
   titleSecondary: 'Job Aid',
   courseNumber: 'EDET 650',
@@ -58,3 +58,5 @@ export default {
   reflection:
     'During this project, I served as the expert in instructional design for the online modules and appreciated the opportunity to directly apply what I was learning in the M.Ed. program. As discussed in my Internship Final Report Presentation artifact, I learned valuable lessons on managing a project effectively, utilizing existing resources, and embracing opportunities for improvement.',
 }
+
+export default data

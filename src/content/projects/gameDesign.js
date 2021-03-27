@@ -7,7 +7,7 @@ const Kapp2012 = createExternalLink(
   'Kapp, 2012'
 )
 
-export default {
+const data = {
   titleMain: 'Game Design',
   // titleSecondary: '',
   courseNumber: 'EDET 652',
@@ -64,3 +64,5 @@ export default {
   reflection:
     'As someone who has never really enjoyed playing video games, this artifact reflects an initial understanding of how to design a game to support teaching, learning, and performance. However, the Kapp textbook was an extremely valuable resource which helped guide me through the process of game design. In the future, I would love to work on this project more (or an alternate topic for game design) in order to learn how to build and implement a video game in the real world context.',
 }
+
+export default data

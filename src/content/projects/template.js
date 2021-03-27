@@ -1,5 +1,5 @@
 // This is the JSON template for the data needed to create a project page
-export default {
+const data = {
   titleMain: '',
   // titleSecondary: '',
   courseNumber: '',
@@ -43,3 +43,5 @@ export default {
     },
   ],
 }
+
+export default data

@@ -1,6 +1,6 @@
 import { SurveyMonkeyLink } from '../../common/links'
 
-export default {
+const data = {
   titleMain: 'Instructional Design and Assessment Report',
   titleSecondary: 'Powerpoint Prototype of Instructional Unit',
   courseNumber: 'EDET 722',
@@ -58,3 +58,5 @@ export default {
   reflection:
     'Since this was the first time I had written a comprehensive instructional design plan, the Instructional Design and Assessment Report demonstrates an initial understanding of the process. Looking back now, I could have been more descriptive in my front-end analysis, specifically with how data was collected, analyzed, and results displayed. As I progressed in the course, I added more details in my documentation and am pleased with the Instructional Strategy Plan and Formative Evaluation Plan. In addition, many of the PowerPoint features which are used to create a self-paced, interactive module were new to me. If I used this technology in the future, I would add audio to the slides in order to reduce the number of words and provide more engagement.',
 }
+
+export default data

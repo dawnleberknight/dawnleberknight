@@ -10,7 +10,7 @@ const Tripp1990 = createExternalLink(
   'Tripp, 1990'
 )
 
-export default {
+const data = {
   titleMain: 'Rapid eLearning Tool',
   courseNumber: 'EDET 703',
   projectLink:
@@ -71,3 +71,5 @@ export default {
   reflection:
     'Since I was already familiar with the TeamSTEPPS® curriculum and Articulate 360 Rise e-learning tool, this artifact demonstrates more advanced application of knowledge and skills. I have taught the concepts within the face-to-face learning environment, but this project allowed me to apply instructional design strategies to optimize the online learning environment. In addition, I was able to explore and apply a new instructional design model, Rapid Prototyping, and I can see the benefits of using this model in certain circumstances and contexts.',
 }
+
+export default data

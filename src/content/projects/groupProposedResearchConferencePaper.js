@@ -12,7 +12,7 @@ const Guay2000 = createExternalLink(
   'Guay, 2000'
 )
 
-export default {
+const data = {
   titleMain: 'Group Proposed Research Conference Paper',
   titleSecondary: 'Presentation',
   courseNumber: 'EDET 780',
@@ -61,3 +61,5 @@ export default {
   reflection:
     'I used this project as an opportunity to collaborate with classmates who are also involved in higher education online learning, and we each brought unique strengths and abilities to the team. Both the Group Proposed Research Conference Paper and Presentation demonstrate advanced application of our combined knowledge and skills, and I am hopeful to be able use some of the concepts from our proposed research study in my future work with student motivation in the online learning environment.',
 }
+
+export default data

@@ -9,7 +9,7 @@ const Turner1995 = createExternalLink(
   'Turner, 1995'
 )
 
-export default {
+const data = {
   titleMain: 'Learning Theory Research Paper',
   courseNumber: 'EDET 709',
   projectLink:
@@ -61,3 +61,5 @@ export default {
     },
   ],
 }
+
+export default data
