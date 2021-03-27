@@ -26,7 +26,7 @@ export default function PortfolioDesignAndDevelopment() {
       <section className="page-section bg-primary-light pb-5">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8 text-center">
+            <div className="col-lg-12 text-center">
               <h2 className="mt-0 page-header">
                 Portfolio Design and Development
               </h2>
@@ -37,7 +37,7 @@ export default function PortfolioDesignAndDevelopment() {
       <section className="page-section">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <h3>Purpose</h3>
               <p>
                 For the culminating assignment in my Master’s degree, I created,
@@ -124,7 +124,7 @@ export default function PortfolioDesignAndDevelopment() {
                 reviewed the website frequently during the development process,
                 offering helpful feedback and advice, which I used to edit CSS,
                 HTML, and JavaScript as needed. During the final stages of
-                development, my website wasI reviewed by the instructor and
+                development, my website was reviewed by the instructor and
                 classmates, and I used their feedback to make additional
                 improvements, such as creating a separate About page, providing
                 more details in my reflection, and adding more reference
@@ -133,7 +133,7 @@ export default function PortfolioDesignAndDevelopment() {
                 process.
               </p>
               <div className="row justify-content-center">
-                <div className="col-lg-8 text-center mt-5">
+                <div className="col-lg-12 text-center mt-5">
                   <Link to="/projects">
                     <button className="btn btn-primary-light btn-xl">
                       Back to Projects

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
+
 import Layout from './layout'
 import SEO from './seo'
 
@@ -17,7 +19,7 @@ export default class ProjectLayout extends React.Component {
         <section className="page-section bg-primary-light pb-5">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-8 text-center">
+              <div className="col-lg-12 text-center">
                 <h2 className="mt-0 page-header">{data.titleMain}</h2>
               </div>
             </div>
@@ -26,12 +28,14 @@ export default class ProjectLayout extends React.Component {
         <section className="page-section">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-8 text-center">
+              <div className="col-lg-12 text-center">
                 <h2 className="mt-0">{data.standardName}</h2>
                 <hr className="divider" />
-                <p>{data.standardSummary}</p>
+                <div className="text-left">
+                  <p>{data.standardSummary}</p>
+                </div>
               </div>
-              <div className="col-lg-8">
+              <div className="col-lg-12">
                 <h3 className="mt-5">
                   {data.courseNumber} -{' '}
                   <a
@@ -62,6 +66,15 @@ export default class ProjectLayout extends React.Component {
                 <Paragraph>{data.role}</Paragraph>
                 <h4 className="mt-5">Instructional Design</h4>
                 <Paragraph>{data.instructionalDesign}</Paragraph>
+                <div className="d-flex justify-content-center">
+                  <StaticImage
+                    src="../images/logo.png"
+                    alt="Adventure of Learning Logo"
+                    placeholder="blurred"
+                    height="400"
+                    width="400"
+                  />
+                </div>
                 <h4 className="mt-5">AECT Performance Indicators</h4>
                 {data.performanceIndicator.map((pi, index) => (
                   <div key={index}>
@@ -79,7 +92,7 @@ export default class ProjectLayout extends React.Component {
                 <h4 className="mt-5">Reflection</h4>
                 <Paragraph>{data.reflection}</Paragraph>
               </div>
-              <div className="col-lg-8 text-center mt-5">
+              <div className="col-lg-12 text-center mt-5">
                 <Link to="/projects">
                   <button className="btn btn-primary-light btn-xl">
                     Back to Projects

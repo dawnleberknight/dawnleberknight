@@ -43,7 +43,7 @@ export default class Navigation extends React.Component {
                   </li>
                   <li className="nav-item">
                     <Nav.Item>
-                      <Link to="/projects">Projects</Link>
+                      <Link to="/projects">Artifacts</Link>
                     </Nav.Item>
                   </li>
                   <li className="nav-item">
