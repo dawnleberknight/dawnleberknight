@@ -1,3 +1,5 @@
+import { Molenda2007Link, Morrison2013Link } from '../../common/links'
+
 const data = {
   titleMain: 'Management of Web 2.0 Tools',
   // titleSecondary: '',
@@ -14,8 +16,7 @@ const data = {
     'For this research paper, I examined the use of Web 2.0 tools, specifically wikis and blogs, in health professions education. In the paper, I discussed advantages and disadvantages for each of the Web 2.0 tools and guidelines for managing appropriate use.',
   role:
     'Working independently on this project, I served as subject matter expert, instructional designer and developer. After researching the use of various Web 2.0 tools in my career area, I analyzed the two that I found to be most beneficial and developed suggestions for how to appropriately manage the use of both tools.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I first analyzed research related to Web 2.0 tools in health professions education. From the analysis, I chose to focus on wikis and blogs and then designed an outline of the research paper with a listing of advantages and disadvantages for both tools. Following this outline, I developed the research paper and asked a work colleague to review the draft, using her suggestions for improvements to finalize the research paper.',
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, I first analyzed research related to Web 2.0 tools in health professions education. From the analysis, I chose to focus on wikis and blogs and then designed an outline of the research paper with a listing of advantages and disadvantages for both tools. Following this outline, I developed the research paper and asked a work colleague to review the draft, using her suggestions for improvements to finalize the research paper.`,
   performanceIndicator: [
     // Each of these sections in between the {} represents a new bullet point in the list
     {

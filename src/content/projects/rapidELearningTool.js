@@ -3,6 +3,8 @@ import {
   DAWN_LEBERKNIGHT_RESOURCES_PAGE,
   createExternalLink,
   ArticulateRiseLink,
+  Molenda2007Link,
+  Morrison2013Link,
 } from '../../common/links'
 
 const Tripp1990 = createExternalLink(
@@ -23,8 +25,7 @@ const data = {
   scope: `Following the Rapid Prototyping instructional design model (${Tripp1990}) that I researched earlier in the course, I created a module using a rapid eLearning development tool, ${ArticulateRiseLink}. The 40-minute “TeamSTEPPS® Communication” module was intended to be part of a larger course covering the ${TeamSTEPPSLink} curriculum.`,
   role:
     'Since I am a certified TeamSTEPPS® Master Trainer, I completed this project by myself and served as the primary subject matter expert, instructional designer, and developer.',
-  instructionalDesign:
-    'Following Rapid Prototyping instructional design model, which overlaps with the ADDIE and MRK models, I began with an analysis of needs and existing TeamSTEPPS® content along with tentative objectives. I continued with the parallel and combined processes of constructing (designing and developing) and utilizing (implementing and evaluating) the instructional module prototype. The next step in the Rapid Prototyping instructional design process would be to design additional modules as part of the TeamSTEPPS® series and continue pilot testing and revising content and learning objectives as needed.',
+  instructionalDesign: `Following Rapid Prototyping instructional design model, which overlaps with the ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) models, I began with an analysis of needs and existing TeamSTEPPS® content along with tentative objectives. I continued with the parallel and combined processes of constructing (designing and developing) and utilizing (implementing and evaluating) the instructional module prototype. The next step in the Rapid Prototyping instructional design process would be to design additional modules as part of the TeamSTEPPS® series and continue pilot testing and revising content and learning objectives as needed.`,
   performanceIndicator: [
     {
       title: 'Creating',

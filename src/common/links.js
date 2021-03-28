@@ -70,3 +70,17 @@ export const HarvardMacy6CLink = createExternalLink(
   HARVARD_MACY_6C,
   'Harvard Macy Community Blog'
 )
+export const Molenda2007Link = createExternalLink(
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  'Molenda, 2007'
+)
+export const Morrison2013Link = createExternalLink(
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  'Morrison, 2013'
+)
+export const Cast2018Link = createExternalLink(
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  'Cast, 2018'
+)
+export const LighthouseLink = createExternalLink(LIGHTHOUSE, 'Lighthouse')
+export const PixabayLink = createExternalLink(PIXABAY, 'Pixabay')

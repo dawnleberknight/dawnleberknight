@@ -1,4 +1,8 @@
-import { MoodleLink } from '../../common/links'
+import {
+  MoodleLink,
+  Molenda2007Link,
+  Morrison2013Link,
+} from '../../common/links'
 
 const data = {
   titleMain: 'Internship Final Report Presentation',
@@ -16,7 +20,7 @@ const data = {
     'Although my internship took place with my current employer, South Carolina Area Health Education Consortium (SC AHEC), the project involved work outside my typical scope of practice and allowed me to work with regional AHEC centers, who are private not-for-profit 501(c)3 organizations. I applied my M.Ed. program learning through community service with the development of 20 one-hour online modules, which were designed to develop academically proficient and self-confident future healthcare professionals.',
   role:
     'As a former middle/high school teacher with years of experience in healthcare administration, I served as one of the subject matter experts and collaborated with other subject matter experts, which were the Health Careers Program (HCP) Coordinators throughout South Carolina. In addition, I served as the instructional designer and developer for the online modules.',
-  instructionalDesign: `Following ADDIE and MRK instructional design models, I worked with fellow SMEs to analyze content that would be helpful for our target audience, which included determining instructional problems, identifying learner characteristics, and analyzing task components. We then designed each of the one-hour online modules, which included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. Then I developed the instructional materials in the SC AHEC learning management system, ${MoodleLink}, and fellow SMEs reviewed the modules to provide feedback. Once improvements were made to each module, it was implemented and made available for high school students to self-register for each module.`,
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, I worked with fellow SMEs to analyze content that would be helpful for our target audience, which included determining instructional problems, identifying learner characteristics, and analyzing task components. We then designed each of the one-hour online modules, which included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. Then I developed the instructional materials in the SC AHEC learning management system, ${MoodleLink}, and fellow SMEs reviewed the modules to provide feedback. Once improvements were made to each module, it was implemented and made available for high school students to self-register for each module.`,
   performanceIndicator: [
     // Each of these sections in between the {} represents a new bullet point in the list
     {

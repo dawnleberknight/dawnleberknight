@@ -2,6 +2,8 @@ import {
   createExternalLink,
   DAWN_LEBERKNIGHT_RESOURCES_PAGE,
   UdutuLink,
+  Molenda2007Link,
+  Morrison2013Link,
 } from '../../common/links'
 
 const Dick2015 = createExternalLink(
@@ -25,11 +27,10 @@ const data = {
   standardSummary:
     'Candidates design, develop, implement, and evaluate technology-rich learning environments within a supportive community of practice.',
   contextAndConditions: `During the Spring 2021 Advanced Instructional Design and Development (EDET 793) course with Dr. Michael Grant, we explored additional instructional design models in order to become more expert in at least one other model. I selected the Dick and Carey model of instructional design (${Dick2015}) and used a new development tool to create an eLearning module.`,
-  scope: `Following the MRK instructional design process, I designed and developed an eLearning product using a rapid eLearning development tool which was new to me, ${UdutuLink}. The 30-minute eLearning module was developed to educate graduate-level, novice instructional design students on the Dick and Carey model of instructional design.`,
+  scope: `I designed and developed an eLearning product using a rapid eLearning development tool which was new to me, ${UdutuLink}. The 30-minute eLearning module was developed to educate graduate-level, novice instructional design students on the Dick and Carey model of instructional design.`,
   role:
     'For this project, I was the subject matter expert, instructional designer, and developer. Throughout the design and development process of the eLearning module, I relied on my two assigned group members to provide formative feedback and evaluations.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I completed a front-end analysis, which included a goal analysis to identify the goals for instruction, a learner analysis to describe the characteristics of the target audience, and a contextual analysis to describe the orienting, instructional, and performance contexts. After researching the Dick and Carey model, I completed a task analysis, developed performance objectives and assessment items, and designed the instructional strategy plan. Next, I created a storyboard with a narration script, a treatment report to describe the eLearning product and rationales, and formative evaluation plan and data collection instruments. Following my instructional design documentation, I then developed the interactive, self-paced eLearning module using Udutu. My two group members provided feedback throughout the process, pilot tested the eLearning module, and completed the formative evaluation. Finally, I made revisions to the eLearning module based on the evaluation results.',
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, I completed a front-end analysis, which included a goal analysis to identify the goals for instruction, a learner analysis to describe the characteristics of the target audience, and a contextual analysis to describe the orienting, instructional, and performance contexts. After researching the Dick and Carey model, I completed a task analysis, developed performance objectives and assessment items, and designed the instructional strategy plan. Next, I created a storyboard with a narration script, a treatment report to describe the eLearning product and rationales, and formative evaluation plan and data collection instruments. Following my instructional design documentation, I then developed the interactive, self-paced eLearning module using Udutu. My two group members provided feedback throughout the process, pilot tested the eLearning module, and completed the formative evaluation. Finally, I made revisions to the eLearning module based on the evaluation results.`,
   performanceIndicator: [
     // Each of these sections in between the {} represents a new bullet point in the list
     {

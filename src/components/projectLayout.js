@@ -4,6 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from './layout'
 import SEO from './seo'
+import ExternalLink from './externalLink'
+import { DAWN_LEBERKNIGHT_RESOURCES_PAGE } from '../common/links'
 
 const Paragraph = data => {
   return <p dangerouslySetInnerHTML={{ __html: data.children }} />
@@ -32,7 +34,16 @@ export default class ProjectLayout extends React.Component {
                 <h2 className="mt-0">{data.standardName}</h2>
                 <hr className="divider" />
                 <div className="text-left">
-                  <p>{data.standardSummary}</p>
+                  <p>
+                    {data.standardSummary} (
+                    <ExternalLink
+                      spaceBefore={false}
+                      href={DAWN_LEBERKNIGHT_RESOURCES_PAGE}
+                    >
+                      AECT, 2012
+                    </ExternalLink>
+                    )
+                  </p>
                 </div>
               </div>
               <div className="col-lg-12">

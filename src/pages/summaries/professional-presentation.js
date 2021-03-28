@@ -27,7 +27,7 @@ export default function ProfessionalPresentation() {
                 Innovative and Sustainable Interprofessional Education Programs
               </p>
               <h3 className="pt-5">
-                Work Sample -
+                Artifact -
                 <ExternalLink href="https://drive.google.com/file/d/1YXmfvj34h1OWr--rqElq32ufUVtfUduX/view?usp=sharing">
                   Presentation Slides
                 </ExternalLink>

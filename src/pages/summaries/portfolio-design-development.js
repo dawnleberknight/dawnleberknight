@@ -40,7 +40,7 @@ export default function PortfolioDesignAndDevelopment() {
             <div className="col-lg-12">
               <h3>Purpose</h3>
               <p>
-                For the culminating assignment in my Master’s degree, I created,
+                For the culminating assignment in my master’s degree, I created,
                 curated, and reflected on a digital portfolio that aligns my
                 projects, experiences, and growth with M.Ed. program standards.
               </p>
@@ -107,8 +107,8 @@ export default function PortfolioDesignAndDevelopment() {
                 homepage background image with a mountain scene from
                 <ExternalLink href={PIXABAY}>Pixabay</ExternalLink>, and I used
                 <ExternalLink href={CANVA}>Canva</ExternalLink> to create custom
-                icons for the Projects webpage. An iframe was used to embed the
-                YouTube introductory video on the homepage.
+                logo and icons for the Projects webpage. An iframe was used to
+                embed the YouTube introductory video on the homepage.
               </p>
               <p>
                 I edited the site while it was running on a local server on my

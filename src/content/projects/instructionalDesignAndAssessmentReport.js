@@ -1,4 +1,8 @@
-import { SurveyMonkeyLink } from '../../common/links'
+import {
+  SurveyMonkeyLink,
+  Molenda2007Link,
+  Morrison2013Link,
+} from '../../common/links'
 
 const data = {
   titleMain: 'Instructional Design and Assessment Report',
@@ -17,8 +21,7 @@ const data = {
     'As indicated in the first artifact link, I followed a systematic instructional design process in order to produce a self-paced instructional module (second artifact link) on “The 60 Year Curriculum” for my employer, SC AHEC.',
   role:
     'I completed this project by myself and served as the primary subject matter expert, instructional designer, and developer. I did recruit seven SC AHEC staff to participate in the needs assessment survey in order to better understand the target audience.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I completed a front-end analysis, which included a need analysis to identify the needs for instruction, a goal analysis that identified the goals for the instruction based on the needs analysis, a learner analysis that describes the characteristics of the target audience (SC AHEC staff), and a contextual analysis that described the instructional context and performance context. I then completed a topical task analysis, developed performance objectives and assessment items, and designed the instructional strategy plan. Finally, I developed the interactive, self-paced e-learning module and a formative evaluation plan, which included evaluation instruments, methods, and intent for data analysis and reporting.',
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, I completed a front-end analysis, which included a need analysis to identify the needs for instruction, a goal analysis that identified the goals for the instruction based on the needs analysis, a learner analysis that describes the characteristics of the target audience (SC AHEC staff), and a contextual analysis that described the instructional context and performance context. I then completed a topical task analysis, developed performance objectives and assessment items, and designed the instructional strategy plan. Finally, I developed the interactive, self-paced e-learning module and a formative evaluation plan, which included evaluation instruments, methods, and intent for data analysis and reporting.`,
   performanceIndicator: [
     {
       title: 'Creating',

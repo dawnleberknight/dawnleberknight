@@ -22,8 +22,6 @@ export default function ProjectsPage() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12 text-center">
-              <h3 className="mt-0">Work Samples</h3>
-              <hr className="divider my-4" />
               <div className="text-left">
                 <p>
                   All artifacts listed below direct you to authentic products of
@@ -140,7 +138,9 @@ export default function ProjectsPage() {
                     <th scope="row">EDET 735</th>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>
+                      <Link to="/projects/udl-website">UDL Website</Link>
+                    </td>
                     <td></td>
                     <td></td>
                   </tr>
@@ -202,12 +202,12 @@ export default function ProjectsPage() {
         <div className="container">
           <div className="row justify-content-center pb-4">
             <div className="col-lg-12 text-center">
-              <h3 className="mt-0">Summaries of Projects</h3>
+              <h3 className="mt-0">Additional Projects</h3>
               <hr className="divider my-4" />
               <div className="text-left">
                 <p>
                   The image links below direct you to a detailed description of
-                  a few assignments that I have completed.
+                  other assignments that I have completed.
                 </p>
               </div>
             </div>

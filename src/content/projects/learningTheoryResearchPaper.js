@@ -2,6 +2,8 @@ import {
   DAWN_LEBERKNIGHT_RESOURCES_PAGE,
   HarvardMacy6CLink,
   createExternalLink,
+  Molenda2007Link,
+  Morrison2013Link,
 } from '../../common/links'
 
 const Turner1995 = createExternalLink(
@@ -22,7 +24,7 @@ const data = {
   scope: `The purpose of the research paper was to further explore and examine a selected learning theory in order to bring a new and interesting perspective to the topic. I chose to focus on the application of 6C’s of Motivation learning theory (${Turner1995}) to online learning for healthcare professionals.`,
   role:
     'I completed this project by myself and served as the primary subject matter expert after completing extensive research on the topic.',
-  instructionalDesign: `Following ADDIE and MRK instructional design models, I first analyzed research related to the 6C’s of Motivation in order to create an annotated bibliography of references related to my specific focus on interprofessional, online education for healthcare professions. Next, I designed an outline of my research paper and developed a draft. Then two classmates evaluated my draft and offered suggestions for improvements, which I used to finalize my research paper. Finally, I was able to implement an abbreviated version of my research paper recommendations, which were posted on the ${HarvardMacy6CLink}.`,
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, I first analyzed research related to the 6C’s of Motivation in order to create an annotated bibliography of references related to my specific focus on interprofessional, online education for healthcare professions. Next, I designed an outline of my research paper and developed a draft. Then two classmates evaluated my draft and offered suggestions for improvements, which I used to finalize my research paper. Finally, I was able to implement an abbreviated version of my research paper recommendations, which were posted on the ${HarvardMacy6CLink}.`,
   performanceIndicator: [
     {
       title: 'Theoretical Foundations',

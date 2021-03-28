@@ -1,6 +1,8 @@
 import {
   createExternalLink,
   DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  Molenda2007Link,
+  Morrison2013Link,
 } from '../../common/links'
 
 const Deci1985 = createExternalLink(
@@ -28,8 +30,7 @@ const data = {
     'For this group research project, I collaborated with two classmates, Daniel Berg and Ellis Reeves, in order to further explore the research process and a topic related to educational technology and instructional design.',
   role:
     'Each group member served as subject matter expert, instructional designer and developer. Ellis and I had already completed research on motivation-related learning theories in EDET 709, so this provided a foundation for our proposed study, In addition, Daniel and I had been involved in the same online digital accessibilities training, which we used as the context for our proposed study. In my specific role within the group, I organized the meetings, started the initial draft of the research paper, and developed the PowerPoint presentation.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, we first analyzed research related to student motivation along with gamification in the online learning environment in order to create an annotated bibliography of references related to our specific focus on the impact of digital credentials on student motivation and performance in an online higher education course. Next, we designed an outline of the research paper and developed the research paper. Then our course instructor evaluated the paper and offered suggestions for improvements, which we used when implementing the research paper concepts through the use of a recorded presentation.',
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, we first analyzed research related to student motivation along with gamification in the online learning environment in order to create an annotated bibliography of references related to our specific focus on the impact of digital credentials on student motivation and performance in an online higher education course. Next, we designed an outline of the research paper and developed the research paper. Then our course instructor evaluated the paper and offered suggestions for improvements, which we used when implementing the research paper concepts through the use of a recorded presentation.`,
   performanceIndicator: [
     // Each of these sections in between the {} represents a new bullet point in the list
     {
