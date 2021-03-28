@@ -1,6 +1,8 @@
 import {
   createExternalLink,
   DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  Molenda2007Link,
+  Morrison2013Link,
 } from '../../common/links'
 const Kapp2012 = createExternalLink(
   DAWN_LEBERKNIGHT_RESOURCES_PAGE,
@@ -22,8 +24,7 @@ const data = {
   scope: `Following best practices for gamification of learning and instruction (${Kapp2012}), I designed an online game for elementary school students to better understand COVID-19 prevention strategies.`,
   role:
     'Since I had recently developed a COVID-19 Contact Monitor course for my professional work with SC AHEC, I served as the primary subject matter expert and completed this project independently. I was also instructional designer and developer, applying what I had learned about effective gamification strategies throughout the course.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, I completed an analysis of needs and goals for instruction on prevention of COVID-19 infection, and I also conducted an analysis of the target audience, which was elementary-aged students. I then designed performance objectives and sample assessment questions and developed the game characters, environment, and rules of play with careful consideration of reward structure and feedback which would be most effective for elementary students. Finally, I solicited feedback from two peers who enjoy playing video games and used their suggested improvements to make revisions to the game design.',
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, I completed an analysis of needs and goals for instruction on prevention of COVID-19 infection, and I also conducted an analysis of the target audience, which was elementary-aged students. I then designed performance objectives and sample assessment questions and developed the game characters, environment, and rules of play with careful consideration of reward structure and feedback which would be most effective for elementary students. Finally, I solicited feedback from two peers who enjoy playing video games and used their suggested improvements to make revisions to the game design.`,
   performanceIndicator: [
     // Each of these sections in between the {} represents a new bullet point in the list
     {

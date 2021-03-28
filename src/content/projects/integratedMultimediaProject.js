@@ -3,6 +3,8 @@ import {
   CanvaLink,
   CitrixWebExLink,
   IMovieLink,
+  Molenda2007Link,
+  Morrison2013Link,
 } from '../../common/links'
 
 const data = {
@@ -18,8 +20,7 @@ const data = {
     'For the Integrated Multimedia Project (IMP), I worked with a classmate (Daniel Berg) to collaboratively plan, design and develop a dynamic multimedia project which included a podcast episode, vodcast, marketing poster, cover art, and website.',
   role:
     'Since both Daniel and I were previously public school teachers, we both served as Subject Matter Experts for the “Confessions of an Ex. Teacher” IMP. I was the instructional designer and developer of the vodcast, marketing poster, and covert art, and we both participated in the recording of the podcast and vodcast.',
-  instructionalDesign:
-    'Following ADDIE and MRK instructional design models, we first analyzed content that would be helpful for our target audience of current or former K-12 classroom teachers, which included determining instructional problems, identifying learner characteristics, and analyzing task components. We then designed scripts for the podcast and vodcast, which included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. Then we developed the recordings and marketing materials and implemented them into a publicly available website. Finally, we evaluated the project based on feedback from peer reviewers in the class.',
+  instructionalDesign: `Following ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, we first analyzed content that would be helpful for our target audience of current or former K-12 classroom teachers, which included determining instructional problems, identifying learner characteristics, and analyzing task components. We then designed scripts for the podcast and vodcast, which included defining instructional objectives, structuring content sequentially, designing instructional strategies, and planning the instructional message and mode of delivery. Then we developed the recordings and marketing materials and implemented them into a publicly available website. Finally, we evaluated the project based on feedback from peer reviewers in the class.`,
   performanceIndicator: [
     {
       title: 'Creating',

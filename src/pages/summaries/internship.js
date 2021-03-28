@@ -32,7 +32,7 @@ export default function Internship() {
                 South Carolina.
               </p>
               <h3 className="pt-5">
-                Work Sample -
+                Artifact -
                 <ExternalLink href="https://drive.google.com/file/d/19U-hec4fDzM7QHosa_LQu4EZYiEV7gHp/view">
                   Job Aid
                 </ExternalLink>

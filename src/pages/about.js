@@ -55,8 +55,8 @@ export default function AboutPage() {
             </p>
             <p className="mb-4">
               I have been married for 10 years to my husband Shawn, who is a
-              software engineer. We have a two daughters, 9 year old Brooklyn
-              and 5 year old London, who both attend a wonderful creative arts
+              software engineer. We have two daughters, 9 year old Brooklyn and
+              5 year old London, who both attend a wonderful creative arts
               elementary school. My family lives in Charleston and enjoys
               exploring our city along with traveling to other places.
             </p>

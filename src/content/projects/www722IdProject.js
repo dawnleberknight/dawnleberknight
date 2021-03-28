@@ -1,4 +1,9 @@
-import { GoogleSitesLink, createExternalLink } from '../../common/links'
+import {
+  GoogleSitesLink,
+  createExternalLink,
+  Molenda2007Link,
+  Morrison2013Link,
+} from '../../common/links'
 const CommonMistakesLink = createExternalLink(
   'https://drive.google.com/file/d/12AddaHRJFvTFPGmgn8eaAPZ2szF_DWcX/view?usp=sharing',
   'common mistakes in web page design'
@@ -20,8 +25,7 @@ const data = {
   scope: `The goal of this assignment was to create a web-based version of the previously developed ${PowerPointPrototypeLink} from EDET 722. After researching the biggest mistakes in webpage design, I focused on best practices for web delivery and created a series of webpages to present the EDET 722 instructional unit online.`,
   role:
     'I completed this project by myself and served as the instructional designer and developer.',
-  instructionalDesign:
-    'Since this project was based on the instructional design work completed in EDET 722, I completed only a couple of the core elements from the ADDIE and MRK instructional design models, which included designing instructional strategies and the message and developing instructional delivery and evaluation instruments which were appropriate for web-based education.',
+  instructionalDesign: `Since this project was based on the instructional design work completed in EDET 722, I completed only a couple of the core elements from the ADDIE (${Molenda2007Link}) and MRK (${Morrison2013Link}) instructional design models, which included designing instructional strategies and the message and developing instructional delivery and evaluation instruments which were appropriate for web-based education.`,
   performanceIndicator: [
     {
       title: 'Creating',
