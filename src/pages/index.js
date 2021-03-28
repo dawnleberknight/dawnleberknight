@@ -21,7 +21,8 @@ export default function IndexPage({ data }) {
                 src="../images/profile-picture.jpg"
                 alt="Profile picture of Dawn Leberknight"
                 placeholder="blurred"
-                className="rounded-circle mx-auto d-block mb-4"
+                className="mx-auto d-block mb-4"
+                imgClassName="rounded-circle"
                 layout="fixed"
                 width={160}
                 height={160}
