@@ -30,8 +30,8 @@ export default function GoalsPage() {
             diverse needs of the learners.
           </p>
           <p>
-            I am passionate about serving my local and state community,
-            especially those who have been marginalized. In my profession, I
+            I am passionate about serving my local and state communities,
+            especially those which have been marginalized. In my profession, I
             work to advance health equity by helping to build and support the
             healthcare workforce.
           </p>

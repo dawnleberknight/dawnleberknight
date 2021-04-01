@@ -39,8 +39,8 @@ export default function AboutPage() {
                 and support the healthcare workforce in the state. In this role,
                 I primarily focus on developing distance education programs and
                 online courses for future and current healthcare professionals,
-                and I really enjoying being able to work with subject matter
-                experts throughout the state in order to create educational
+                and I enjoy being able to work with subject matter experts
+                throughout the state in order to create educational
                 opportunities which meet the diverse needs of our learners.
               </p>
             </div>

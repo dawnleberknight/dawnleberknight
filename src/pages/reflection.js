@@ -2,7 +2,11 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ExternalLink from '../components/externalLink'
-import { DAWN_LEBERKNIGHT_RESOURCES_PAGE } from '../common/links'
+import {
+  DAWN_LEBERKNIGHT_RESOURCES_PAGE,
+  CANVA,
+  PIKTOCHART,
+} from '../common/links'
 
 const SCAHEC = () => (
   <ExternalLink href="https://www.scahec.net/">SC AHEC</ExternalLink>
@@ -56,6 +60,14 @@ const Resources = () => (
     Resources page
   </ExternalLink>
 )
+const Canva = () => (
+  <ExternalLink href={CANVA} spaceBefore={false}>
+    Canva
+  </ExternalLink>
+)
+const Piktochart = () => (
+  <ExternalLink href={PIKTOCHART}>Piktochart</ExternalLink>
+)
 export default function ReflectionPage() {
   return (
     <Layout>
@@ -74,14 +86,13 @@ export default function ReflectionPage() {
           <div className="row justify-content-center">
             <div className="col-lg-12 text-left">
               <p className="mb-4">
-                I started the M.Ed. program the same month that I started as the
+                I began the M.Ed. program the same month that I started as the
                 Curriculum Coordinator for {SCAHEC()}. In this role, I
                 collaborate with subject matter experts throughout the state in
-                order to design, develop, and implement distance education
-                opportunities for future and current healthcare professionals.
-                Participating in this program has given me the knowledge,
-                skills, and confidence to be a leader in my field of health
-                professions education.
+                order to develop distance education opportunities for future and
+                current healthcare professionals. Participating in this program
+                has given me the knowledge, skills, and confidence to be a
+                leader in my field of health professions education.
               </p>
               <p>
                 As demonstrated in my portfolio, I have been able to develop
@@ -135,30 +146,30 @@ export default function ReflectionPage() {
                 responsibilities, and communicate clearly and frequently about
                 task deadlines. In addition, I am not as creative as some so I
                 struggled with image editing and graphic design, but I found
-                design templates from valuable resources like Canvas and
-                Piktochart. I learned to better admit my weaknesses (like
+                design templates from valuable resources like {Canva()} and
+                {Piktochart()}. I learned to better admit my weaknesses (like
                 graphic design) and look for resources or team members who can
                 help with those areas.
               </p>
 
               <h3 className="mt-5">Leadership</h3>
               <p>
-                As I was finishing the first year in the program, the entire
-                world shifted due to the COVID-19 pandemic. Due to health and
+                As I was finishing my first year in the program, the entire
+                world shifted due to the COVID-19 pandemic. Following health and
                 safety guidelines, the education system was forced to transition
                 to emergency remote learning, which presented significant
-                challenges and constraints. Educational institutions looked to
-                instructional designers as valuable assets to lead the way for
-                implementation of new educational technologies and redesign of
-                instructional materials for the online environment. Because of
-                what I have been learning throughout the program, I was able to
-                provide leadership and direction for how to effectively design,
-                develop, and implement distance education during these
+                challenges. Educational institutions looked to instructional
+                designers as valuable assets to lead the way for implementation
+                of new educational technologies and redesign of instructional
+                materials for the online environment. Because of what I had been
+                learning throughout the program, I was able to provide
+                leadership and direction for how to effectively analyze, design,
+                develop, implement, and evaluate distance education during these
                 unprecedented times. Although many projects were expedited, I
                 was able to clearly articulate the importance of following the
-                instructional design process and helping teams follow the
-                necessary steps to ensure that we were creating quality
-                educational opportunities for our virtual learning communities.
+                instructional design process and help teams follow the necessary
+                steps to ensure that we were creating quality educational
+                opportunities for our virtual learning communities.
               </p>
             </div>
           </div>
