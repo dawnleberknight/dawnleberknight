@@ -69,7 +69,7 @@ export default function IndexPage({ data }) {
               <Link to="/projects">
                 <div className="py-5">
                   <i className="fas fa-4x fa-pencil-alt text-primary-light mb-4"></i>
-                  <h4>Projects</h4>
+                  <h4>Artifacts</h4>
                   <p className="text-muted mb-0">View samples of my work.</p>
                 </div>
               </Link>

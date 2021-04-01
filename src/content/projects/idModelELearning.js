@@ -68,7 +68,7 @@ const data = {
         'Throughout the instructional design process, the learner characteristics were carefully considered, since the target audience for the instruction was a diverse group of novice instructional design students in an online graduate degree program.',
     },
   ],
-  reflection: `Since this was one of the final projects in the M.Ed. program, I had advanced experience with following the MRK instructional design process to develop an eLearning product. However, Udutu was a rapid eLearning development tool which I had not yet used, and I enjoyed learning and gaining experience with this program. In addition, I learned about Mayer's multimedia learning principles, such as using conversational-style verbal explanations (rather than just written explanations) and segmenting longer instructional modules into smaller, learner-controlled and navigated segments, and I applied those concepts when designing and developing the eLearning module.`,
+  reflection: `Since this was one of the final projects in the M.Ed. program, I had advanced experience with following the MRK instructional design process to develop an eLearning product. However, Udutu was a rapid eLearning development tool which I had not yet used, and I enjoyed learning and gaining experience with this program and seeing other new tools used by my classmates. In addition, I learned about Mayer's multimedia learning principles, such as using conversational-style verbal explanations (rather than just written explanations) and segmenting longer instructional modules into smaller, learner-controlled and navigated segments, and I applied those concepts when designing and developing the eLearning module.`,
 }
 
 export default data
